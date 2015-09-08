@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Class: Mixin</title>
+    
+    
+    
+    
+    
+    <meta property="og:title" content="JavaScript SDK"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content=""/>
+    
+    <meta property="og:url" content=""/>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/jaguar.css">
+    
+    
+    <script>
+    var config = {"monospaceLinks":false,"cleverLinks":false,"applicationName":"JavaScript SDK for built.io","disqus":"","googleAnalytics":"","openGraph":{"title":"JavaScript SDK","type":"website","image":"","site_name":"","url":""},"meta":{"title":"","description":"","keyword":""},"linenums":false,"default":{}};
+    </script>
+    
+
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html">JavaScript SDK for built.io</a></h3>
+
+    <div class="search">
+        <input id="search" type="text" class="form-control input-sm" placeholder="Search Documentations">
+    </div>
+    <ul class="list">
+    
+        <li class="item" data-name="Built">
+            <span class="title">
+                <a href="Built.html">Built</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Built.ACL"><a href="Built.html#.ACL">ACL</a></li>
+            
+                <li data-name="Built.App"><a href="Built.html#.App">App</a></li>
+            
+                <li data-name="Built.CachePolicy"><a href="Built.html#.CachePolicy">CachePolicy</a></li>
+            
+                <li data-name="Built.Constants"><a href="Built.html#.Constants">Constants</a></li>
+            
+                <li data-name="Built.Events"><a href="Built.html#.Events">Events</a></li>
+            
+                <li data-name="Built.Group"><a href="Built.html#.Group">Group</a></li>
+            
+                <li data-name="Built.GroupMultiple"><a href="Built.html#.GroupMultiple">GroupMultiple</a></li>
+            
+                <li data-name="Built.Location"><a href="Built.html#.Location">Location</a></li>
+            
+                <li data-name="Built.Mixin"><a href="Built.html#.Mixin">Mixin</a></li>
+            
+                <li data-name="Built.Presence"><a href="Built.html#.Presence">Presence</a></li>
+            
+                <li data-name="Built.Session"><a href="Built.html#.Session">Session</a></li>
+            
+                <li data-name="Built.Upsert"><a href="Built.html#.Upsert">Upsert</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Built.disableUserMetrics"><a href="Built.html#.disableUserMetrics">disableUserMetrics</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Events">
+            <span class="title">
+                <a href="Events.html">Events</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Events.off"><a href="Events.html#.off">off</a></li>
+            
+                <li data-name="Events.on"><a href="Events.html#.on">on</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ACL">
+            <span class="title">
+                <a href="ACL.html">ACL</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ACL#canDelete"><a href="ACL.html#canDelete">canDelete</a></li>
+            
+                <li data-name="ACL#canUpdate"><a href="ACL.html#canUpdate">canUpdate</a></li>
+            
+                <li data-name="ACL#disable"><a href="ACL.html#disable">disable</a></li>
+            
+                <li data-name="ACL#enable"><a href="ACL.html#enable">enable</a></li>
+            
+                <li data-name="ACL#getPublicDeleteAccess"><a href="ACL.html#getPublicDeleteAccess">getPublicDeleteAccess</a></li>
+            
+                <li data-name="ACL#getPublicReadAccess"><a href="ACL.html#getPublicReadAccess">getPublicReadAccess</a></li>
+            
+                <li data-name="ACL#getPublicUpdateAccess"><a href="ACL.html#getPublicUpdateAccess">getPublicUpdateAccess</a></li>
+            
+                <li data-name="ACL#getRoleDeleteAccess"><a href="ACL.html#getRoleDeleteAccess">getRoleDeleteAccess</a></li>
+            
+                <li data-name="ACL#getRoleReadAccess"><a href="ACL.html#getRoleReadAccess">getRoleReadAccess</a></li>
+            
+                <li data-name="ACL#getRoleUpdateAccess"><a href="ACL.html#getRoleUpdateAccess">getRoleUpdateAccess</a></li>
+            
+                <li data-name="ACL#getUserDeleteAccess"><a href="ACL.html#getUserDeleteAccess">getUserDeleteAccess</a></li>
+            
+                <li data-name="ACL#getUserReadAccess"><a href="ACL.html#getUserReadAccess">getUserReadAccess</a></li>
+            
+                <li data-name="ACL#getUserUpdateAccess"><a href="ACL.html#getUserUpdateAccess">getUserUpdateAccess</a></li>
+            
+                <li data-name="ACL#isDisabled"><a href="ACL.html#isDisabled">isDisabled</a></li>
+            
+                <li data-name="ACL#setAnonymousDeleteAccess"><a href="ACL.html#setAnonymousDeleteAccess">setAnonymousDeleteAccess</a></li>
+            
+                <li data-name="ACL#setAnonymousReadAccess"><a href="ACL.html#setAnonymousReadAccess">setAnonymousReadAccess</a></li>
+            
+                <li data-name="ACL#setAnonymousUpdateAccess"><a href="ACL.html#setAnonymousUpdateAccess">setAnonymousUpdateAccess</a></li>
+            
+                <li data-name="ACL#setPublicDeleteAccess"><a href="ACL.html#setPublicDeleteAccess">setPublicDeleteAccess</a></li>
+            
+                <li data-name="ACL#setPublicReadAccess"><a href="ACL.html#setPublicReadAccess">setPublicReadAccess</a></li>
+            
+                <li data-name="ACL#setPublicUpdateAccess"><a href="ACL.html#setPublicUpdateAccess">setPublicUpdateAccess</a></li>
+            
+                <li data-name="ACL#setRoleDeleteAccess"><a href="ACL.html#setRoleDeleteAccess">setRoleDeleteAccess</a></li>
+            
+                <li data-name="ACL#setRoleReadAccess"><a href="ACL.html#setRoleReadAccess">setRoleReadAccess</a></li>
+            
+                <li data-name="ACL#setRoleUpdateAccess"><a href="ACL.html#setRoleUpdateAccess">setRoleUpdateAccess</a></li>
+            
+                <li data-name="ACL#setUserDeleteAcces"><a href="ACL.html#setUserDeleteAcces">setUserDeleteAcces</a></li>
+            
+                <li data-name="ACL#setUserReadAccess"><a href="ACL.html#setUserReadAccess">setUserReadAccess</a></li>
+            
+                <li data-name="ACL#setUserUpdateAccess"><a href="ACL.html#setUserUpdateAccess">setUserUpdateAccess</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Analytics">
+            <span class="title">
+                <a href="Analytics.html">Analytics</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Analytics.Event"><a href="Analytics.html#.Event">Event</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Analytics#flush"><a href="Analytics.html#flush">flush</a></li>
+            
+                <li data-name="Analytics#getBatchSize"><a href="Analytics.html#getBatchSize">getBatchSize</a></li>
+            
+                <li data-name="Analytics#getHeaders"><a href="Analytics.html#getHeaders">getHeaders</a></li>
+            
+                <li data-name="Analytics#getQueue"><a href="Analytics.html#getQueue">getQueue</a></li>
+            
+                <li data-name="Analytics#getSuperProperties"><a href="Analytics.html#getSuperProperties">getSuperProperties</a></li>
+            
+                <li data-name="Analytics#getTrackAnonymously"><a href="Analytics.html#getTrackAnonymously">getTrackAnonymously</a></li>
+            
+                <li data-name="Analytics#setBatchSize"><a href="Analytics.html#setBatchSize">setBatchSize</a></li>
+            
+                <li data-name="Analytics#setHeader"><a href="Analytics.html#setHeader">setHeader</a></li>
+            
+                <li data-name="Analytics#setStaticSuperProperties"><a href="Analytics.html#setStaticSuperProperties">setStaticSuperProperties</a></li>
+            
+                <li data-name="Analytics#setSuperProperties"><a href="Analytics.html#setSuperProperties">setSuperProperties</a></li>
+            
+                <li data-name="Analytics#setSuperProperties"><a href="Analytics.html#setSuperProperties">setSuperProperties</a></li>
+            
+                <li data-name="Analytics#setTrackAnonymously"><a href="Analytics.html#setTrackAnonymously">setTrackAnonymously</a></li>
+            
+                <li data-name="Analytics#trigger"><a href="Analytics.html#trigger">trigger</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="App">
+            <span class="title">
+                <a href="App.html">App</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="App.Analytics"><a href="App.html#.Analytics">Analytics</a></li>
+            
+                <li data-name="App.Class"><a href="App.html#.Class">Class</a></li>
+            
+                <li data-name="App.Extension"><a href="App.html#.Extension">Extension</a></li>
+            
+                <li data-name="App.Installation"><a href="App.html#.Installation">Installation</a></li>
+            
+                <li data-name="App.Notification"><a href="App.html#.Notification">Notification</a></li>
+            
+                <li data-name="App.Role"><a href="App.html#.Role">Role</a></li>
+            
+                <li data-name="App.Upload"><a href="App.html#.Upload">Upload</a></li>
+            
+                <li data-name="App.User"><a href="App.html#.User">User</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="App#disableRealtime"><a href="App.html#disableRealtime">disableRealtime</a></li>
+            
+                <li data-name="App#enableRealtime"><a href="App.html#enableRealtime">enableRealtime</a></li>
+            
+                <li data-name="App#fetch"><a href="App.html#fetch">fetch</a></li>
+            
+                <li data-name="App#fetchApplicationClassesSchema"><a href="App.html#fetchApplicationClassesSchema">fetchApplicationClassesSchema</a></li>
+            
+                <li data-name="App#getApiKey"><a href="App.html#getApiKey">getApiKey</a></li>
+            
+                <li data-name="App#getAppVariables"><a href="App.html#getAppVariables">getAppVariables</a></li>
+            
+                <li data-name="App#getAuthToken"><a href="App.html#getAuthToken">getAuthToken</a></li>
+            
+                <li data-name="App#getCachePolicy"><a href="App.html#getCachePolicy">getCachePolicy</a></li>
+            
+                <li data-name="App#getHeaders"><a href="App.html#getHeaders">getHeaders</a></li>
+            
+                <li data-name="App#getLastActivities"><a href="App.html#getLastActivities">getLastActivities</a></li>
+            
+                <li data-name="App#getMasterKey"><a href="App.html#getMasterKey">getMasterKey</a></li>
+            
+                <li data-name="App#getName"><a href="App.html#getName">getName</a></li>
+            
+                <li data-name="App#getURL"><a href="App.html#getURL">getURL</a></li>
+            
+                <li data-name="App#getVersion"><a href="App.html#getVersion">getVersion</a></li>
+            
+                <li data-name="App#isRealtimeEnabled"><a href="App.html#isRealtimeEnabled">isRealtimeEnabled</a></li>
+            
+                <li data-name="App#onRealtimeError"><a href="App.html#onRealtimeError">onRealtimeError</a></li>
+            
+                <li data-name="App#persistSessionWith"><a href="App.html#persistSessionWith">persistSessionWith</a></li>
+            
+                <li data-name="App#removeAuthToken"><a href="App.html#removeAuthToken">removeAuthToken</a></li>
+            
+                <li data-name="App#removeHeader"><a href="App.html#removeHeader">removeHeader</a></li>
+            
+                <li data-name="App#removeMasterKey"><a href="App.html#removeMasterKey">removeMasterKey</a></li>
+            
+                <li data-name="App#removeTenant"><a href="App.html#removeTenant">removeTenant</a></li>
+            
+                <li data-name="App#setAuthToken"><a href="App.html#setAuthToken">setAuthToken</a></li>
+            
+                <li data-name="App#setCachePolicy"><a href="App.html#setCachePolicy">setCachePolicy</a></li>
+            
+                <li data-name="App#setHeader"><a href="App.html#setHeader">setHeader</a></li>
+            
+                <li data-name="App#setHost"><a href="App.html#setHost">setHost</a></li>
+            
+                <li data-name="App#setMasterKey"><a href="App.html#setMasterKey">setMasterKey</a></li>
+            
+                <li data-name="App#setPort"><a href="App.html#setPort">setPort</a></li>
+            
+                <li data-name="App#setProtocol"><a href="App.html#setProtocol">setProtocol</a></li>
+            
+                <li data-name="App#setRtHost"><a href="App.html#setRtHost">setRtHost</a></li>
+            
+                <li data-name="App#setRtPort"><a href="App.html#setRtPort">setRtPort</a></li>
+            
+                <li data-name="App#setRtProtocol"><a href="App.html#setRtProtocol">setRtProtocol</a></li>
+            
+                <li data-name="App#setTenant"><a href="App.html#setTenant">setTenant</a></li>
+            
+                <li data-name="App#setTrackAnonymously"><a href="App.html#setTrackAnonymously">setTrackAnonymously</a></li>
+            
+                <li data-name="App#setVersion"><a href="App.html#setVersion">setVersion</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Class">
+            <span class="title">
+                <a href="Class.html">Class</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Class.Object"><a href="Class.html#.Object">Object</a></li>
+            
+                <li data-name="Class.Query"><a href="Class.html#.Query">Query</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Class.off"><a href="Class.html#.off">off</a></li>
+            
+                <li data-name="Class.on"><a href="Class.html#.on">on</a></li>
+            
+                <li data-name="Class#getHeaders"><a href="Class.html#getHeaders">getHeaders</a></li>
+            
+                <li data-name="Class#getSchema"><a href="Class.html#getSchema">getSchema</a></li>
+            
+                <li data-name="Class#off"><a href="Class.html#off">off</a></li>
+            
+                <li data-name="Class#on"><a href="Class.html#on">on</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Event">
+            <span class="title">
+                <a href="Event.html">Event</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Event#getProperties"><a href="Event.html#getProperties">getProperties</a></li>
+            
+                <li data-name="Event#getUid"><a href="Event.html#getUid">getUid</a></li>
+            
+                <li data-name="Event#setCreatedAt"><a href="Event.html#setCreatedAt">setCreatedAt</a></li>
+            
+                <li data-name="Event#setProperties"><a href="Event.html#setProperties">setProperties</a></li>
+            
+                <li data-name="Event#setUid"><a href="Event.html#setUid">setUid</a></li>
+            
+                <li data-name="Event#trigger"><a href="Event.html#trigger">trigger</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Extension">
+            <span class="title">
+                <a href="Extension.html">Extension</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Extension#execute"><a href="Extension.html#execute">execute</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Group">
+            <span class="title">
+                <a href="Group.html">Group</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Group.setReferenceWhere"><a href="Group.html#.setReferenceWhere">setReferenceWhere</a></li>
+            
+                <li data-name="Group.setReferenceWithObject"><a href="Group.html#.setReferenceWithObject">setReferenceWithObject</a></li>
+            
+                <li data-name="Group#addGroup"><a href="Group.html#addGroup">addGroup</a></li>
+            
+                <li data-name="Group#assign"><a href="Group.html#assign">assign</a></li>
+            
+                <li data-name="Group#get"><a href="Group.html#get">get</a></li>
+            
+                <li data-name="Group#getGroupForKey"><a href="Group.html#getGroupForKey">getGroupForKey</a></li>
+            
+                <li data-name="Group#pullValue"><a href="Group.html#pullValue">pullValue</a></li>
+            
+                <li data-name="Group#pullValueAtIndex"><a href="Group.html#pullValueAtIndex">pullValueAtIndex</a></li>
+            
+                <li data-name="Group#pushValue"><a href="Group.html#pushValue">pushValue</a></li>
+            
+                <li data-name="Group#pushValueAtIndex"><a href="Group.html#pushValueAtIndex">pushValueAtIndex</a></li>
+            
+                <li data-name="Group#remove"><a href="Group.html#remove">remove</a></li>
+            
+                <li data-name="Group#set"><a href="Group.html#set">set</a></li>
+            
+                <li data-name="Group#setReference"><a href="Group.html#setReference">setReference</a></li>
+            
+                <li data-name="Group#updateValueAtIndex"><a href="Group.html#updateValueAtIndex">updateValueAtIndex</a></li>
+            
+                <li data-name="Group#upsertForReference"><a href="Group.html#upsertForReference">upsertForReference</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="GroupMultiple">
+            <span class="title">
+                <a href="GroupMultiple.html">GroupMultiple</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="GroupMultiple#pop"><a href="GroupMultiple.html#pop">pop</a></li>
+            
+                <li data-name="GroupMultiple#push"><a href="GroupMultiple.html#push">push</a></li>
+            
+                <li data-name="GroupMultiple#shift"><a href="GroupMultiple.html#shift">shift</a></li>
+            
+                <li data-name="GroupMultiple#unshift"><a href="GroupMultiple.html#unshift">unshift</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Installation">
+            <span class="title">
+                <a href="Installation.html">Installation</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Installation.off"><a href="Installation.html#.off">off</a></li>
+            
+                <li data-name="Installation.on"><a href="Installation.html#.on">on</a></li>
+            
+                <li data-name="Installation#getCredentailsName"><a href="Installation.html#getCredentailsName">getCredentailsName</a></li>
+            
+                <li data-name="Installation#getDeviceToken"><a href="Installation.html#getDeviceToken">getDeviceToken</a></li>
+            
+                <li data-name="Installation#getDeviceType"><a href="Installation.html#getDeviceType">getDeviceType</a></li>
+            
+                <li data-name="Installation#getSubscribedChannelList"><a href="Installation.html#getSubscribedChannelList">getSubscribedChannelList</a></li>
+            
+                <li data-name="Installation#off"><a href="Installation.html#off">off</a></li>
+            
+                <li data-name="Installation#on"><a href="Installation.html#on">on</a></li>
+            
+                <li data-name="Installation#save"><a href="Installation.html#save">save</a></li>
+            
+                <li data-name="Installation#setCredentailsName"><a href="Installation.html#setCredentailsName">setCredentailsName</a></li>
+            
+                <li data-name="Installation#setCurrentTimeZone"><a href="Installation.html#setCurrentTimeZone">setCurrentTimeZone</a></li>
+            
+                <li data-name="Installation#setDeviceToken"><a href="Installation.html#setDeviceToken">setDeviceToken</a></li>
+            
+                <li data-name="Installation#setDeviceType"><a href="Installation.html#setDeviceType">setDeviceType</a></li>
+            
+                <li data-name="Installation#subscribeChannels"><a href="Installation.html#subscribeChannels">subscribeChannels</a></li>
+            
+                <li data-name="Installation#unsubscribeChannels"><a href="Installation.html#unsubscribeChannels">unsubscribeChannels</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Location">
+            <span class="title">
+                <a href="Location.html">Location</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Location.getCurrentLocation"><a href="Location.html#.getCurrentLocation">getCurrentLocation</a></li>
+            
+                <li data-name="Location#kilometersFrom"><a href="Location.html#kilometersFrom">kilometersFrom</a></li>
+            
+                <li data-name="Location#metersFrom"><a href="Location.html#metersFrom">metersFrom</a></li>
+            
+                <li data-name="Location#milesFrom"><a href="Location.html#milesFrom">milesFrom</a></li>
+            
+                <li data-name="Location#setLocation"><a href="Location.html#setLocation">setLocation</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Mixin">
+            <span class="title">
+                <a href="Mixin.html">Mixin</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Notification">
+            <span class="title">
+                <a href="Notification.html">Notification</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Notification#addUsers"><a href="Notification.html#addUsers">addUsers</a></li>
+            
+                <li data-name="Notification#atTime"><a href="Notification.html#atTime">atTime</a></li>
+            
+                <li data-name="Notification#inLocalTime"><a href="Notification.html#inLocalTime">inLocalTime</a></li>
+            
+                <li data-name="Notification#send"><a href="Notification.html#send">send</a></li>
+            
+                <li data-name="Notification#setMessage"><a href="Notification.html#setMessage">setMessage</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Object">
+            <span class="title">
+                <a href="Object.html">Object</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Object.BackboneCollection"><a href="Object.html#.BackboneCollection">BackboneCollection</a></li>
+            
+                <li data-name="Object.off"><a href="Object.html#.off">off</a></li>
+            
+                <li data-name="Object.on"><a href="Object.html#.on">on</a></li>
+            
+                <li data-name="Object#addGroup"><a href="Object.html#addGroup">addGroup</a></li>
+            
+                <li data-name="Object#addQuery"><a href="Object.html#addQuery">addQuery</a></li>
+            
+                <li data-name="Object#assign"><a href="Object.html#assign">assign</a></li>
+            
+                <li data-name="Object#decrement"><a href="Object.html#decrement">decrement</a></li>
+            
+                <li data-name="Object#delete"><a href="Object.html#delete">delete</a></li>
+            
+                <li data-name="Object#divide"><a href="Object.html#divide">divide</a></li>
+            
+                <li data-name="Object#except"><a href="Object.html#except">except</a></li>
+            
+                <li data-name="Object#exceptReference"><a href="Object.html#exceptReference">exceptReference</a></li>
+            
+                <li data-name="Object#fetch"><a href="Object.html#fetch">fetch</a></li>
+            
+                <li data-name="Object#get"><a href="Object.html#get">get</a></li>
+            
+                <li data-name="Object#getACL"><a href="Object.html#getACL">getACL</a></li>
+            
+                <li data-name="Object#getData"><a href="Object.html#getData">getData</a></li>
+            
+                <li data-name="Object#getGroupForKey"><a href="Object.html#getGroupForKey">getGroupForKey</a></li>
+            
+                <li data-name="Object#getHeaders"><a href="Object.html#getHeaders">getHeaders</a></li>
+            
+                <li data-name="Object#getLocation"><a href="Object.html#getLocation">getLocation</a></li>
+            
+                <li data-name="Object#getUid"><a href="Object.html#getUid">getUid</a></li>
+            
+                <li data-name="Object#has"><a href="Object.html#has">has</a></li>
+            
+                <li data-name="Object#include"><a href="Object.html#include">include</a></li>
+            
+                <li data-name="Object#includeOwner"><a href="Object.html#includeOwner">includeOwner</a></li>
+            
+                <li data-name="Object#increment"><a href="Object.html#increment">increment</a></li>
+            
+                <li data-name="Object#isNew"><a href="Object.html#isNew">isNew</a></li>
+            
+                <li data-name="Object#multiply"><a href="Object.html#multiply">multiply</a></li>
+            
+                <li data-name="Object#off"><a href="Object.html#off">off</a></li>
+            
+                <li data-name="Object#on"><a href="Object.html#on">on</a></li>
+            
+                <li data-name="Object#only"><a href="Object.html#only">only</a></li>
+            
+                <li data-name="Object#onlyReference"><a href="Object.html#onlyReference">onlyReference</a></li>
+            
+                <li data-name="Object#pullValue"><a href="Object.html#pullValue">pullValue</a></li>
+            
+                <li data-name="Object#pullValueAtIndex"><a href="Object.html#pullValueAtIndex">pullValueAtIndex</a></li>
+            
+                <li data-name="Object#pushValue"><a href="Object.html#pushValue">pushValue</a></li>
+            
+                <li data-name="Object#pushValueAtIndex"><a href="Object.html#pushValueAtIndex">pushValueAtIndex</a></li>
+            
+                <li data-name="Object#removeHeader"><a href="Object.html#removeHeader">removeHeader</a></li>
+            
+                <li data-name="Object#save"><a href="Object.html#save">save</a></li>
+            
+                <li data-name="Object#saveAsDraft"><a href="Object.html#saveAsDraft">saveAsDraft</a></li>
+            
+                <li data-name="Object#set"><a href="Object.html#set">set</a></li>
+            
+                <li data-name="Object#setACL"><a href="Object.html#setACL">setACL</a></li>
+            
+                <li data-name="Object#setHeaders"><a href="Object.html#setHeaders">setHeaders</a></li>
+            
+                <li data-name="Object#setLocation"><a href="Object.html#setLocation">setLocation</a></li>
+            
+                <li data-name="Object#setReference"><a href="Object.html#setReference">setReference</a></li>
+            
+                <li data-name="Object#setReferenceWhere"><a href="Object.html#setReferenceWhere">setReferenceWhere</a></li>
+            
+                <li data-name="Object#setReferenceWithObject"><a href="Object.html#setReferenceWithObject">setReferenceWithObject</a></li>
+            
+                <li data-name="Object#setTags"><a href="Object.html#setTags">setTags</a></li>
+            
+                <li data-name="Object#setUid"><a href="Object.html#setUid">setUid</a></li>
+            
+                <li data-name="Object#timeless"><a href="Object.html#timeless">timeless</a></li>
+            
+                <li data-name="Object#toBackboneModel"><a href="Object.html#toBackboneModel">toBackboneModel</a></li>
+            
+                <li data-name="Object#updateValueAtIndex"><a href="Object.html#updateValueAtIndex">updateValueAtIndex</a></li>
+            
+                <li data-name="Object#upsert"><a href="Object.html#upsert">upsert</a></li>
+            
+                <li data-name="Object#upsertForReference"><a href="Object.html#upsertForReference">upsertForReference</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Presence">
+            <span class="title">
+                <a href="Presence.html">Presence</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Presence#acceptRequests"><a href="Presence.html#acceptRequests">acceptRequests</a></li>
+            
+                <li data-name="Presence#addInWhitelist"><a href="Presence.html#addInWhitelist">addInWhitelist</a></li>
+            
+                <li data-name="Presence#enable"><a href="Presence.html#enable">enable</a></li>
+            
+                <li data-name="Presence#getApplicationUser"><a href="Presence.html#getApplicationUser">getApplicationUser</a></li>
+            
+                <li data-name="Presence#getRequests"><a href="Presence.html#getRequests">getRequests</a></li>
+            
+                <li data-name="Presence#getStatus"><a href="Presence.html#getStatus">getStatus</a></li>
+            
+                <li data-name="Presence#getStatusMessage"><a href="Presence.html#getStatusMessage">getStatusMessage</a></li>
+            
+                <li data-name="Presence#getWhiteListUsers"><a href="Presence.html#getWhiteListUsers">getWhiteListUsers</a></li>
+            
+                <li data-name="Presence#getWhiteListUsers"><a href="Presence.html#getWhiteListUsers">getWhiteListUsers</a></li>
+            
+                <li data-name="Presence#isEnabled"><a href="Presence.html#isEnabled">isEnabled</a></li>
+            
+                <li data-name="Presence#isPublic"><a href="Presence.html#isPublic">isPublic</a></li>
+            
+                <li data-name="Presence#removeFromWhitelist"><a href="Presence.html#removeFromWhitelist">removeFromWhitelist</a></li>
+            
+                <li data-name="Presence#save"><a href="Presence.html#save">save</a></li>
+            
+                <li data-name="Presence#setPublic"><a href="Presence.html#setPublic">setPublic</a></li>
+            
+                <li data-name="Presence#setStatusMessage"><a href="Presence.html#setStatusMessage">setStatusMessage</a></li>
+            
+                <li data-name="Presence#setWhiteList"><a href="Presence.html#setWhiteList">setWhiteList</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Query">
+            <span class="title">
+                <a href="Query.html">Query</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Query#addQueryParams"><a href="Query.html#addQueryParams">addQueryParams</a></li>
+            
+                <li data-name="Query#afterUid"><a href="Query.html#afterUid">afterUid</a></li>
+            
+                <li data-name="Query#and"><a href="Query.html#and">and</a></li>
+            
+                <li data-name="Query#ascending"><a href="Query.html#ascending">ascending</a></li>
+            
+                <li data-name="Query#beforeUid"><a href="Query.html#beforeUid">beforeUid</a></li>
+            
+                <li data-name="Query#containedIn"><a href="Query.html#containedIn">containedIn</a></li>
+            
+                <li data-name="Query#count"><a href="Query.html#count">count</a></li>
+            
+                <li data-name="Query#delete"><a href="Query.html#delete">delete</a></li>
+            
+                <li data-name="Query#deltaAll"><a href="Query.html#deltaAll">deltaAll</a></li>
+            
+                <li data-name="Query#deltaCreatedFrom"><a href="Query.html#deltaCreatedFrom">deltaCreatedFrom</a></li>
+            
+                <li data-name="Query#deltaDeletedFrom"><a href="Query.html#deltaDeletedFrom">deltaDeletedFrom</a></li>
+            
+                <li data-name="Query#deltaUpdatedFrom"><a href="Query.html#deltaUpdatedFrom">deltaUpdatedFrom</a></li>
+            
+                <li data-name="Query#descending"><a href="Query.html#descending">descending</a></li>
+            
+                <li data-name="Query#doesNotExists"><a href="Query.html#doesNotExists">doesNotExists</a></li>
+            
+                <li data-name="Query#dontSelect"><a href="Query.html#dontSelect">dontSelect</a></li>
+            
+                <li data-name="Query#except"><a href="Query.html#except">except</a></li>
+            
+                <li data-name="Query#exceptReference"><a href="Query.html#exceptReference">exceptReference</a></li>
+            
+                <li data-name="Query#exec"><a href="Query.html#exec">exec</a></li>
+            
+                <li data-name="Query#exists"><a href="Query.html#exists">exists</a></li>
+            
+                <li data-name="Query#getHeaders"><a href="Query.html#getHeaders">getHeaders</a></li>
+            
+                <li data-name="Query#greaterThan"><a href="Query.html#greaterThan">greaterThan</a></li>
+            
+                <li data-name="Query#greaterThanOrEqualTo"><a href="Query.html#greaterThanOrEqualTo">greaterThanOrEqualTo</a></li>
+            
+                <li data-name="Query#include"><a href="Query.html#include">include</a></li>
+            
+                <li data-name="Query#includeCount"><a href="Query.html#includeCount">includeCount</a></li>
+            
+                <li data-name="Query#includeDrafts"><a href="Query.html#includeDrafts">includeDrafts</a></li>
+            
+                <li data-name="Query#includeOwner"><a href="Query.html#includeOwner">includeOwner</a></li>
+            
+                <li data-name="Query#includeSchema"><a href="Query.html#includeSchema">includeSchema</a></li>
+            
+                <li data-name="Query#inQuery"><a href="Query.html#inQuery">inQuery</a></li>
+            
+                <li data-name="Query#lessThan"><a href="Query.html#lessThan">lessThan</a></li>
+            
+                <li data-name="Query#lessThanOrEqualTo"><a href="Query.html#lessThanOrEqualTo">lessThanOrEqualTo</a></li>
+            
+                <li data-name="Query#limit"><a href="Query.html#limit">limit</a></li>
+            
+                <li data-name="Query#matches"><a href="Query.html#matches">matches</a></li>
+            
+                <li data-name="Query#nearLocation"><a href="Query.html#nearLocation">nearLocation</a></li>
+            
+                <li data-name="Query#notContainedIn"><a href="Query.html#notContainedIn">notContainedIn</a></li>
+            
+                <li data-name="Query#notEqualTo"><a href="Query.html#notEqualTo">notEqualTo</a></li>
+            
+                <li data-name="Query#notInQuery"><a href="Query.html#notInQuery">notInQuery</a></li>
+            
+                <li data-name="Query#only"><a href="Query.html#only">only</a></li>
+            
+                <li data-name="Query#onlyDrafts"><a href="Query.html#onlyDrafts">onlyDrafts</a></li>
+            
+                <li data-name="Query#onlyReference"><a href="Query.html#onlyReference">onlyReference</a></li>
+            
+                <li data-name="Query#or"><a href="Query.html#or">or</a></li>
+            
+                <li data-name="Query#removeHeader"><a href="Query.html#removeHeader">removeHeader</a></li>
+            
+                <li data-name="Query#removeMasterKey"><a href="Query.html#removeMasterKey">removeMasterKey</a></li>
+            
+                <li data-name="Query#select"><a href="Query.html#select">select</a></li>
+            
+                <li data-name="Query#setBlacklist"><a href="Query.html#setBlacklist">setBlacklist</a></li>
+            
+                <li data-name="Query#setCachePolicy"><a href="Query.html#setCachePolicy">setCachePolicy</a></li>
+            
+                <li data-name="Query#setHeader"><a href="Query.html#setHeader">setHeader</a></li>
+            
+                <li data-name="Query#setMasterKey"><a href="Query.html#setMasterKey">setMasterKey</a></li>
+            
+                <li data-name="Query#setRawQuery"><a href="Query.html#setRawQuery">setRawQuery</a></li>
+            
+                <li data-name="Query#skip"><a href="Query.html#skip">skip</a></li>
+            
+                <li data-name="Query#toBackbone"><a href="Query.html#toBackbone">toBackbone</a></li>
+            
+                <li data-name="Query#toJSON"><a href="Query.html#toJSON">toJSON</a></li>
+            
+                <li data-name="Query#where"><a href="Query.html#where">where</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Role">
+            <span class="title">
+                <a href="Role.html">Role</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Role.getRoleQuery"><a href="Role.html#.getRoleQuery">getRoleQuery</a></li>
+            
+                <li data-name="Role.off"><a href="Role.html#.off">off</a></li>
+            
+                <li data-name="Role#addRole"><a href="Role.html#addRole">addRole</a></li>
+            
+                <li data-name="Role#addRoles"><a href="Role.html#addRoles">addRoles</a></li>
+            
+                <li data-name="Role#addUser"><a href="Role.html#addUser">addUser</a></li>
+            
+                <li data-name="Role#addUsers"><a href="Role.html#addUsers">addUsers</a></li>
+            
+                <li data-name="Role#getName"><a href="Role.html#getName">getName</a></li>
+            
+                <li data-name="Role#getRoles"><a href="Role.html#getRoles">getRoles</a></li>
+            
+                <li data-name="Role#getRoleUid"><a href="Role.html#getRoleUid">getRoleUid</a></li>
+            
+                <li data-name="Role#getUsers"><a href="Role.html#getUsers">getUsers</a></li>
+            
+                <li data-name="Role#hasRole"><a href="Role.html#hasRole">hasRole</a></li>
+            
+                <li data-name="Role#hasUser"><a href="Role.html#hasUser">hasUser</a></li>
+            
+                <li data-name="Role#off"><a href="Role.html#off">off</a></li>
+            
+                <li data-name="Role#removeRole"><a href="Role.html#removeRole">removeRole</a></li>
+            
+                <li data-name="Role#removeUser"><a href="Role.html#removeUser">removeUser</a></li>
+            
+                <li data-name="Role#setName"><a href="Role.html#setName">setName</a></li>
+            
+                <li data-name="Role#setRoleUid"><a href="Role.html#setRoleUid">setRoleUid</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Upload">
+            <span class="title">
+                <a href="Upload.html">Upload</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Upload.on"><a href="Upload.html#.on">on</a></li>
+            
+                <li data-name="Upload#delete"><a href="Upload.html#delete">delete</a></li>
+            
+                <li data-name="Upload#download"><a href="Upload.html#download">download</a></li>
+            
+                <li data-name="Upload#fetch"><a href="Upload.html#fetch">fetch</a></li>
+            
+                <li data-name="Upload#getACL"><a href="Upload.html#getACL">getACL</a></li>
+            
+                <li data-name="Upload#getContentType"><a href="Upload.html#getContentType">getContentType</a></li>
+            
+                <li data-name="Upload#getDownloadLink"><a href="Upload.html#getDownloadLink">getDownloadLink</a></li>
+            
+                <li data-name="Upload#getFileName"><a href="Upload.html#getFileName">getFileName</a></li>
+            
+                <li data-name="Upload#getFileSize"><a href="Upload.html#getFileSize">getFileSize</a></li>
+            
+                <li data-name="Upload#getHeaders"><a href="Upload.html#getHeaders">getHeaders</a></li>
+            
+                <li data-name="Upload#getTags"><a href="Upload.html#getTags">getTags</a></li>
+            
+                <li data-name="Upload#getUid"><a href="Upload.html#getUid">getUid</a></li>
+            
+                <li data-name="Upload#isNew"><a href="Upload.html#isNew">isNew</a></li>
+            
+                <li data-name="Upload#on"><a href="Upload.html#on">on</a></li>
+            
+                <li data-name="Upload#save"><a href="Upload.html#save">save</a></li>
+            
+                <li data-name="Upload#setACL"><a href="Upload.html#setACL">setACL</a></li>
+            
+                <li data-name="Upload#setFile"><a href="Upload.html#setFile">setFile</a></li>
+            
+                <li data-name="Upload#setTags"><a href="Upload.html#setTags">setTags</a></li>
+            
+                <li data-name="Upload#setUid"><a href="Upload.html#setUid">setUid</a></li>
+            
+                <li data-name="Upload#unsetFile"><a href="Upload.html#unsetFile">unsetFile</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Upsert">
+            <span class="title">
+                <a href="Upsert.html">Upsert</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="User">
+            <span class="title">
+                <a href="User.html">User</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="User.anyAuth"><a href="User.html#.anyAuth">anyAuth</a></li>
+            
+                <li data-name="User.clearSession"><a href="User.html#.clearSession">clearSession</a></li>
+            
+                <li data-name="User.generateAuthtoken"><a href="User.html#.generateAuthtoken">generateAuthtoken</a></li>
+            
+                <li data-name="User.getCurrentUser()"><a href="User.html#.getCurrentUser()">getCurrentUser()</a></li>
+            
+                <li data-name="User.getCurrentUserPresence"><a href="User.html#.getCurrentUserPresence">getCurrentUserPresence</a></li>
+            
+                <li data-name="User.isAuthenticated"><a href="User.html#.isAuthenticated">isAuthenticated</a></li>
+            
+                <li data-name="User.off"><a href="User.html#.off">off</a></li>
+            
+                <li data-name="User.on"><a href="User.html#.on">on</a></li>
+            
+                <li data-name="User.setSession"><a href="User.html#.setSession">setSession</a></li>
+            
+                <li data-name="User#activate"><a href="User.html#activate">activate</a></li>
+            
+                <li data-name="User#deactivate"><a href="User.html#deactivate">deactivate</a></li>
+            
+                <li data-name="User#fetchUserUidByEmail"><a href="User.html#fetchUserUidByEmail">fetchUserUidByEmail</a></li>
+            
+                <li data-name="User#fetchUserUidByFacebookUserId"><a href="User.html#fetchUserUidByFacebookUserId">fetchUserUidByFacebookUserId</a></li>
+            
+                <li data-name="User#fetchUserUidByGoogleEmail"><a href="User.html#fetchUserUidByGoogleEmail">fetchUserUidByGoogleEmail</a></li>
+            
+                <li data-name="User#fetchUserUidByTwitter"><a href="User.html#fetchUserUidByTwitter">fetchUserUidByTwitter</a></li>
+            
+                <li data-name="User#forgotPassword"><a href="User.html#forgotPassword">forgotPassword</a></li>
+            
+                <li data-name="User#getPresence"><a href="User.html#getPresence">getPresence</a></li>
+            
+                <li data-name="User#login"><a href="User.html#login">login</a></li>
+            
+                <li data-name="User#loginWithFacebook"><a href="User.html#loginWithFacebook">loginWithFacebook</a></li>
+            
+                <li data-name="User#loginWithGoogle"><a href="User.html#loginWithGoogle">loginWithGoogle</a></li>
+            
+                <li data-name="User#loginWithTwitter"><a href="User.html#loginWithTwitter">loginWithTwitter</a></li>
+            
+                <li data-name="User#logout"><a href="User.html#logout">logout</a></li>
+            
+                <li data-name="User#off"><a href="User.html#off">off</a></li>
+            
+                <li data-name="User#on"><a href="User.html#on">on</a></li>
+            
+                <li data-name="User#register"><a href="User.html#register">register</a></li>
+            
+                <li data-name="User#requestPresenceAccess"><a href="User.html#requestPresenceAccess">requestPresenceAccess</a></li>
+            
+                <li data-name="User#resetPassword"><a href="User.html#resetPassword">resetPassword</a></li>
+            
+                <li data-name="User#updateUserProfile"><a href="User.html#updateUserProfile">updateUserProfile</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+    </ul>
+</div>
+    <div class="main">
+        <h1 class="page-title" data-filename="Mixin.html">Class: Mixin</h1>
+        
+
+
+
+<section>
+    
+<header>
+    <h2>
+    Mixin
+    </h2>
+    
+        <div class="class-description">Built.Mixin should be used to merge Plain JavaScript object, Built.Group or Built.GroupMultiple together</div>
+    
+</header>  
+
+<article>
+    <div class="container-overview">
+    
+    
+    
+        
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="Mixin">
+            
+            new Mixin<span class="signature">(data)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            utilities/mixin.js, line 3
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        This should be used to mix instances of Built.Group, Built.GroupMultiple and Plain JavaScript object together
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>data</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Object.html">Object</a></span>
+|
+
+<span class="param-type"><a href="Built.html#.Group">Built.Group</a></span>
+|
+
+<span class="param-type"><a href="Built.html#.GroupMultiple">Built.GroupMultiple</a></span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Can be 1] Plain JavaScript object 2] Instance of Built.Group 3] Instance of Built.GroupMultiple</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>// Consider you have a group field 'employee' which has to sub-group 'profile' and 'address'
+var profile = Built.Group('profile',{
+	name:'John',
+	gender: 'Male'	
+})
+var address = Built.Group('address',{
+	city:'Mumbai',
+	area: 'Borivali'	
+})
+var employee = Built.Mixin(profile, address);
+console.log(employee.toJSON())
+// OUTPUT
+//{ 
+//	profile:{
+//		name:'John',
+//		gender: 'Male'
+//	},
+//	address:{
+//		city:'Mumbai',
+//		area:'Borivali'
+//	}	
+//} </code></pre>
+    
+
+    
+</dd>
+
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</article>
+
+</section>  
+
+
+
+
+
+        
+
+        <footer>
+            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.2</a> on Fri Aug 28 2015 11:30:04 GMT+0530 (IST)
+        </footer>
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

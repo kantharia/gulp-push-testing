@@ -1,0 +1,8668 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Class: Object</title>
+    
+    
+    
+    
+    
+    <meta property="og:title" content="JavaScript SDK"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content=""/>
+    
+    <meta property="og:url" content=""/>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/jaguar.css">
+    
+    
+    <script>
+    var config = {"monospaceLinks":false,"cleverLinks":false,"applicationName":"JavaScript SDK for built.io","disqus":"","googleAnalytics":"","openGraph":{"title":"JavaScript SDK","type":"website","image":"","site_name":"","url":""},"meta":{"title":"","description":"","keyword":""},"linenums":false,"default":{}};
+    </script>
+    
+
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html">JavaScript SDK for built.io</a></h3>
+
+    <div class="search">
+        <input id="search" type="text" class="form-control input-sm" placeholder="Search Documentations">
+    </div>
+    <ul class="list">
+    
+        <li class="item" data-name="Built">
+            <span class="title">
+                <a href="Built.html">Built</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Built.ACL"><a href="Built.html#.ACL">ACL</a></li>
+            
+                <li data-name="Built.App"><a href="Built.html#.App">App</a></li>
+            
+                <li data-name="Built.CachePolicy"><a href="Built.html#.CachePolicy">CachePolicy</a></li>
+            
+                <li data-name="Built.Constants"><a href="Built.html#.Constants">Constants</a></li>
+            
+                <li data-name="Built.Events"><a href="Built.html#.Events">Events</a></li>
+            
+                <li data-name="Built.Group"><a href="Built.html#.Group">Group</a></li>
+            
+                <li data-name="Built.GroupMultiple"><a href="Built.html#.GroupMultiple">GroupMultiple</a></li>
+            
+                <li data-name="Built.Location"><a href="Built.html#.Location">Location</a></li>
+            
+                <li data-name="Built.Mixin"><a href="Built.html#.Mixin">Mixin</a></li>
+            
+                <li data-name="Built.Presence"><a href="Built.html#.Presence">Presence</a></li>
+            
+                <li data-name="Built.Session"><a href="Built.html#.Session">Session</a></li>
+            
+                <li data-name="Built.Upsert"><a href="Built.html#.Upsert">Upsert</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Built.disableUserMetrics"><a href="Built.html#.disableUserMetrics">disableUserMetrics</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Events">
+            <span class="title">
+                <a href="Events.html">Events</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Events.off"><a href="Events.html#.off">off</a></li>
+            
+                <li data-name="Events.on"><a href="Events.html#.on">on</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="ACL">
+            <span class="title">
+                <a href="ACL.html">ACL</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="ACL#canDelete"><a href="ACL.html#canDelete">canDelete</a></li>
+            
+                <li data-name="ACL#canUpdate"><a href="ACL.html#canUpdate">canUpdate</a></li>
+            
+                <li data-name="ACL#disable"><a href="ACL.html#disable">disable</a></li>
+            
+                <li data-name="ACL#enable"><a href="ACL.html#enable">enable</a></li>
+            
+                <li data-name="ACL#getPublicDeleteAccess"><a href="ACL.html#getPublicDeleteAccess">getPublicDeleteAccess</a></li>
+            
+                <li data-name="ACL#getPublicReadAccess"><a href="ACL.html#getPublicReadAccess">getPublicReadAccess</a></li>
+            
+                <li data-name="ACL#getPublicUpdateAccess"><a href="ACL.html#getPublicUpdateAccess">getPublicUpdateAccess</a></li>
+            
+                <li data-name="ACL#getRoleDeleteAccess"><a href="ACL.html#getRoleDeleteAccess">getRoleDeleteAccess</a></li>
+            
+                <li data-name="ACL#getRoleReadAccess"><a href="ACL.html#getRoleReadAccess">getRoleReadAccess</a></li>
+            
+                <li data-name="ACL#getRoleUpdateAccess"><a href="ACL.html#getRoleUpdateAccess">getRoleUpdateAccess</a></li>
+            
+                <li data-name="ACL#getUserDeleteAccess"><a href="ACL.html#getUserDeleteAccess">getUserDeleteAccess</a></li>
+            
+                <li data-name="ACL#getUserReadAccess"><a href="ACL.html#getUserReadAccess">getUserReadAccess</a></li>
+            
+                <li data-name="ACL#getUserUpdateAccess"><a href="ACL.html#getUserUpdateAccess">getUserUpdateAccess</a></li>
+            
+                <li data-name="ACL#isDisabled"><a href="ACL.html#isDisabled">isDisabled</a></li>
+            
+                <li data-name="ACL#setAnonymousDeleteAccess"><a href="ACL.html#setAnonymousDeleteAccess">setAnonymousDeleteAccess</a></li>
+            
+                <li data-name="ACL#setAnonymousReadAccess"><a href="ACL.html#setAnonymousReadAccess">setAnonymousReadAccess</a></li>
+            
+                <li data-name="ACL#setAnonymousUpdateAccess"><a href="ACL.html#setAnonymousUpdateAccess">setAnonymousUpdateAccess</a></li>
+            
+                <li data-name="ACL#setPublicDeleteAccess"><a href="ACL.html#setPublicDeleteAccess">setPublicDeleteAccess</a></li>
+            
+                <li data-name="ACL#setPublicReadAccess"><a href="ACL.html#setPublicReadAccess">setPublicReadAccess</a></li>
+            
+                <li data-name="ACL#setPublicUpdateAccess"><a href="ACL.html#setPublicUpdateAccess">setPublicUpdateAccess</a></li>
+            
+                <li data-name="ACL#setRoleDeleteAccess"><a href="ACL.html#setRoleDeleteAccess">setRoleDeleteAccess</a></li>
+            
+                <li data-name="ACL#setRoleReadAccess"><a href="ACL.html#setRoleReadAccess">setRoleReadAccess</a></li>
+            
+                <li data-name="ACL#setRoleUpdateAccess"><a href="ACL.html#setRoleUpdateAccess">setRoleUpdateAccess</a></li>
+            
+                <li data-name="ACL#setUserDeleteAcces"><a href="ACL.html#setUserDeleteAcces">setUserDeleteAcces</a></li>
+            
+                <li data-name="ACL#setUserReadAccess"><a href="ACL.html#setUserReadAccess">setUserReadAccess</a></li>
+            
+                <li data-name="ACL#setUserUpdateAccess"><a href="ACL.html#setUserUpdateAccess">setUserUpdateAccess</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Analytics">
+            <span class="title">
+                <a href="Analytics.html">Analytics</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Analytics.Event"><a href="Analytics.html#.Event">Event</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Analytics#flush"><a href="Analytics.html#flush">flush</a></li>
+            
+                <li data-name="Analytics#getBatchSize"><a href="Analytics.html#getBatchSize">getBatchSize</a></li>
+            
+                <li data-name="Analytics#getHeaders"><a href="Analytics.html#getHeaders">getHeaders</a></li>
+            
+                <li data-name="Analytics#getQueue"><a href="Analytics.html#getQueue">getQueue</a></li>
+            
+                <li data-name="Analytics#getSuperProperties"><a href="Analytics.html#getSuperProperties">getSuperProperties</a></li>
+            
+                <li data-name="Analytics#getTrackAnonymously"><a href="Analytics.html#getTrackAnonymously">getTrackAnonymously</a></li>
+            
+                <li data-name="Analytics#setBatchSize"><a href="Analytics.html#setBatchSize">setBatchSize</a></li>
+            
+                <li data-name="Analytics#setHeader"><a href="Analytics.html#setHeader">setHeader</a></li>
+            
+                <li data-name="Analytics#setStaticSuperProperties"><a href="Analytics.html#setStaticSuperProperties">setStaticSuperProperties</a></li>
+            
+                <li data-name="Analytics#setSuperProperties"><a href="Analytics.html#setSuperProperties">setSuperProperties</a></li>
+            
+                <li data-name="Analytics#setSuperProperties"><a href="Analytics.html#setSuperProperties">setSuperProperties</a></li>
+            
+                <li data-name="Analytics#setTrackAnonymously"><a href="Analytics.html#setTrackAnonymously">setTrackAnonymously</a></li>
+            
+                <li data-name="Analytics#trigger"><a href="Analytics.html#trigger">trigger</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="App">
+            <span class="title">
+                <a href="App.html">App</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="App.Analytics"><a href="App.html#.Analytics">Analytics</a></li>
+            
+                <li data-name="App.Class"><a href="App.html#.Class">Class</a></li>
+            
+                <li data-name="App.Extension"><a href="App.html#.Extension">Extension</a></li>
+            
+                <li data-name="App.Installation"><a href="App.html#.Installation">Installation</a></li>
+            
+                <li data-name="App.Notification"><a href="App.html#.Notification">Notification</a></li>
+            
+                <li data-name="App.Role"><a href="App.html#.Role">Role</a></li>
+            
+                <li data-name="App.Upload"><a href="App.html#.Upload">Upload</a></li>
+            
+                <li data-name="App.User"><a href="App.html#.User">User</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="App#disableRealtime"><a href="App.html#disableRealtime">disableRealtime</a></li>
+            
+                <li data-name="App#enableRealtime"><a href="App.html#enableRealtime">enableRealtime</a></li>
+            
+                <li data-name="App#fetch"><a href="App.html#fetch">fetch</a></li>
+            
+                <li data-name="App#fetchApplicationClassesSchema"><a href="App.html#fetchApplicationClassesSchema">fetchApplicationClassesSchema</a></li>
+            
+                <li data-name="App#getApiKey"><a href="App.html#getApiKey">getApiKey</a></li>
+            
+                <li data-name="App#getAppVariables"><a href="App.html#getAppVariables">getAppVariables</a></li>
+            
+                <li data-name="App#getAuthToken"><a href="App.html#getAuthToken">getAuthToken</a></li>
+            
+                <li data-name="App#getCachePolicy"><a href="App.html#getCachePolicy">getCachePolicy</a></li>
+            
+                <li data-name="App#getHeaders"><a href="App.html#getHeaders">getHeaders</a></li>
+            
+                <li data-name="App#getLastActivities"><a href="App.html#getLastActivities">getLastActivities</a></li>
+            
+                <li data-name="App#getMasterKey"><a href="App.html#getMasterKey">getMasterKey</a></li>
+            
+                <li data-name="App#getName"><a href="App.html#getName">getName</a></li>
+            
+                <li data-name="App#getURL"><a href="App.html#getURL">getURL</a></li>
+            
+                <li data-name="App#getVersion"><a href="App.html#getVersion">getVersion</a></li>
+            
+                <li data-name="App#isRealtimeEnabled"><a href="App.html#isRealtimeEnabled">isRealtimeEnabled</a></li>
+            
+                <li data-name="App#onRealtimeError"><a href="App.html#onRealtimeError">onRealtimeError</a></li>
+            
+                <li data-name="App#persistSessionWith"><a href="App.html#persistSessionWith">persistSessionWith</a></li>
+            
+                <li data-name="App#removeAuthToken"><a href="App.html#removeAuthToken">removeAuthToken</a></li>
+            
+                <li data-name="App#removeHeader"><a href="App.html#removeHeader">removeHeader</a></li>
+            
+                <li data-name="App#removeMasterKey"><a href="App.html#removeMasterKey">removeMasterKey</a></li>
+            
+                <li data-name="App#removeTenant"><a href="App.html#removeTenant">removeTenant</a></li>
+            
+                <li data-name="App#setAuthToken"><a href="App.html#setAuthToken">setAuthToken</a></li>
+            
+                <li data-name="App#setCachePolicy"><a href="App.html#setCachePolicy">setCachePolicy</a></li>
+            
+                <li data-name="App#setHeader"><a href="App.html#setHeader">setHeader</a></li>
+            
+                <li data-name="App#setHost"><a href="App.html#setHost">setHost</a></li>
+            
+                <li data-name="App#setMasterKey"><a href="App.html#setMasterKey">setMasterKey</a></li>
+            
+                <li data-name="App#setPort"><a href="App.html#setPort">setPort</a></li>
+            
+                <li data-name="App#setProtocol"><a href="App.html#setProtocol">setProtocol</a></li>
+            
+                <li data-name="App#setRtHost"><a href="App.html#setRtHost">setRtHost</a></li>
+            
+                <li data-name="App#setRtPort"><a href="App.html#setRtPort">setRtPort</a></li>
+            
+                <li data-name="App#setRtProtocol"><a href="App.html#setRtProtocol">setRtProtocol</a></li>
+            
+                <li data-name="App#setTenant"><a href="App.html#setTenant">setTenant</a></li>
+            
+                <li data-name="App#setTrackAnonymously"><a href="App.html#setTrackAnonymously">setTrackAnonymously</a></li>
+            
+                <li data-name="App#setVersion"><a href="App.html#setVersion">setVersion</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Class">
+            <span class="title">
+                <a href="Class.html">Class</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Class.Object"><a href="Class.html#.Object">Object</a></li>
+            
+                <li data-name="Class.Query"><a href="Class.html#.Query">Query</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Class.off"><a href="Class.html#.off">off</a></li>
+            
+                <li data-name="Class.on"><a href="Class.html#.on">on</a></li>
+            
+                <li data-name="Class#getHeaders"><a href="Class.html#getHeaders">getHeaders</a></li>
+            
+                <li data-name="Class#getSchema"><a href="Class.html#getSchema">getSchema</a></li>
+            
+                <li data-name="Class#off"><a href="Class.html#off">off</a></li>
+            
+                <li data-name="Class#on"><a href="Class.html#on">on</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Event">
+            <span class="title">
+                <a href="Event.html">Event</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Event#getProperties"><a href="Event.html#getProperties">getProperties</a></li>
+            
+                <li data-name="Event#getUid"><a href="Event.html#getUid">getUid</a></li>
+            
+                <li data-name="Event#setCreatedAt"><a href="Event.html#setCreatedAt">setCreatedAt</a></li>
+            
+                <li data-name="Event#setProperties"><a href="Event.html#setProperties">setProperties</a></li>
+            
+                <li data-name="Event#setUid"><a href="Event.html#setUid">setUid</a></li>
+            
+                <li data-name="Event#trigger"><a href="Event.html#trigger">trigger</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Extension">
+            <span class="title">
+                <a href="Extension.html">Extension</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Extension#execute"><a href="Extension.html#execute">execute</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Group">
+            <span class="title">
+                <a href="Group.html">Group</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Group.setReferenceWhere"><a href="Group.html#.setReferenceWhere">setReferenceWhere</a></li>
+            
+                <li data-name="Group.setReferenceWithObject"><a href="Group.html#.setReferenceWithObject">setReferenceWithObject</a></li>
+            
+                <li data-name="Group#addGroup"><a href="Group.html#addGroup">addGroup</a></li>
+            
+                <li data-name="Group#assign"><a href="Group.html#assign">assign</a></li>
+            
+                <li data-name="Group#get"><a href="Group.html#get">get</a></li>
+            
+                <li data-name="Group#getGroupForKey"><a href="Group.html#getGroupForKey">getGroupForKey</a></li>
+            
+                <li data-name="Group#pullValue"><a href="Group.html#pullValue">pullValue</a></li>
+            
+                <li data-name="Group#pullValueAtIndex"><a href="Group.html#pullValueAtIndex">pullValueAtIndex</a></li>
+            
+                <li data-name="Group#pushValue"><a href="Group.html#pushValue">pushValue</a></li>
+            
+                <li data-name="Group#pushValueAtIndex"><a href="Group.html#pushValueAtIndex">pushValueAtIndex</a></li>
+            
+                <li data-name="Group#remove"><a href="Group.html#remove">remove</a></li>
+            
+                <li data-name="Group#set"><a href="Group.html#set">set</a></li>
+            
+                <li data-name="Group#setReference"><a href="Group.html#setReference">setReference</a></li>
+            
+                <li data-name="Group#updateValueAtIndex"><a href="Group.html#updateValueAtIndex">updateValueAtIndex</a></li>
+            
+                <li data-name="Group#upsertForReference"><a href="Group.html#upsertForReference">upsertForReference</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="GroupMultiple">
+            <span class="title">
+                <a href="GroupMultiple.html">GroupMultiple</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="GroupMultiple#pop"><a href="GroupMultiple.html#pop">pop</a></li>
+            
+                <li data-name="GroupMultiple#push"><a href="GroupMultiple.html#push">push</a></li>
+            
+                <li data-name="GroupMultiple#shift"><a href="GroupMultiple.html#shift">shift</a></li>
+            
+                <li data-name="GroupMultiple#unshift"><a href="GroupMultiple.html#unshift">unshift</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Installation">
+            <span class="title">
+                <a href="Installation.html">Installation</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Installation.off"><a href="Installation.html#.off">off</a></li>
+            
+                <li data-name="Installation.on"><a href="Installation.html#.on">on</a></li>
+            
+                <li data-name="Installation#getCredentailsName"><a href="Installation.html#getCredentailsName">getCredentailsName</a></li>
+            
+                <li data-name="Installation#getDeviceToken"><a href="Installation.html#getDeviceToken">getDeviceToken</a></li>
+            
+                <li data-name="Installation#getDeviceType"><a href="Installation.html#getDeviceType">getDeviceType</a></li>
+            
+                <li data-name="Installation#getSubscribedChannelList"><a href="Installation.html#getSubscribedChannelList">getSubscribedChannelList</a></li>
+            
+                <li data-name="Installation#off"><a href="Installation.html#off">off</a></li>
+            
+                <li data-name="Installation#on"><a href="Installation.html#on">on</a></li>
+            
+                <li data-name="Installation#save"><a href="Installation.html#save">save</a></li>
+            
+                <li data-name="Installation#setCredentailsName"><a href="Installation.html#setCredentailsName">setCredentailsName</a></li>
+            
+                <li data-name="Installation#setCurrentTimeZone"><a href="Installation.html#setCurrentTimeZone">setCurrentTimeZone</a></li>
+            
+                <li data-name="Installation#setDeviceToken"><a href="Installation.html#setDeviceToken">setDeviceToken</a></li>
+            
+                <li data-name="Installation#setDeviceType"><a href="Installation.html#setDeviceType">setDeviceType</a></li>
+            
+                <li data-name="Installation#subscribeChannels"><a href="Installation.html#subscribeChannels">subscribeChannels</a></li>
+            
+                <li data-name="Installation#unsubscribeChannels"><a href="Installation.html#unsubscribeChannels">unsubscribeChannels</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Location">
+            <span class="title">
+                <a href="Location.html">Location</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Location.getCurrentLocation"><a href="Location.html#.getCurrentLocation">getCurrentLocation</a></li>
+            
+                <li data-name="Location#kilometersFrom"><a href="Location.html#kilometersFrom">kilometersFrom</a></li>
+            
+                <li data-name="Location#metersFrom"><a href="Location.html#metersFrom">metersFrom</a></li>
+            
+                <li data-name="Location#milesFrom"><a href="Location.html#milesFrom">milesFrom</a></li>
+            
+                <li data-name="Location#setLocation"><a href="Location.html#setLocation">setLocation</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Mixin">
+            <span class="title">
+                <a href="Mixin.html">Mixin</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Notification">
+            <span class="title">
+                <a href="Notification.html">Notification</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Notification#addUsers"><a href="Notification.html#addUsers">addUsers</a></li>
+            
+                <li data-name="Notification#atTime"><a href="Notification.html#atTime">atTime</a></li>
+            
+                <li data-name="Notification#inLocalTime"><a href="Notification.html#inLocalTime">inLocalTime</a></li>
+            
+                <li data-name="Notification#send"><a href="Notification.html#send">send</a></li>
+            
+                <li data-name="Notification#setMessage"><a href="Notification.html#setMessage">setMessage</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Object">
+            <span class="title">
+                <a href="Object.html">Object</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Object.BackboneCollection"><a href="Object.html#.BackboneCollection">BackboneCollection</a></li>
+            
+                <li data-name="Object.off"><a href="Object.html#.off">off</a></li>
+            
+                <li data-name="Object.on"><a href="Object.html#.on">on</a></li>
+            
+                <li data-name="Object#addGroup"><a href="Object.html#addGroup">addGroup</a></li>
+            
+                <li data-name="Object#addQuery"><a href="Object.html#addQuery">addQuery</a></li>
+            
+                <li data-name="Object#assign"><a href="Object.html#assign">assign</a></li>
+            
+                <li data-name="Object#decrement"><a href="Object.html#decrement">decrement</a></li>
+            
+                <li data-name="Object#delete"><a href="Object.html#delete">delete</a></li>
+            
+                <li data-name="Object#divide"><a href="Object.html#divide">divide</a></li>
+            
+                <li data-name="Object#except"><a href="Object.html#except">except</a></li>
+            
+                <li data-name="Object#exceptReference"><a href="Object.html#exceptReference">exceptReference</a></li>
+            
+                <li data-name="Object#fetch"><a href="Object.html#fetch">fetch</a></li>
+            
+                <li data-name="Object#get"><a href="Object.html#get">get</a></li>
+            
+                <li data-name="Object#getACL"><a href="Object.html#getACL">getACL</a></li>
+            
+                <li data-name="Object#getData"><a href="Object.html#getData">getData</a></li>
+            
+                <li data-name="Object#getGroupForKey"><a href="Object.html#getGroupForKey">getGroupForKey</a></li>
+            
+                <li data-name="Object#getHeaders"><a href="Object.html#getHeaders">getHeaders</a></li>
+            
+                <li data-name="Object#getLocation"><a href="Object.html#getLocation">getLocation</a></li>
+            
+                <li data-name="Object#getUid"><a href="Object.html#getUid">getUid</a></li>
+            
+                <li data-name="Object#has"><a href="Object.html#has">has</a></li>
+            
+                <li data-name="Object#include"><a href="Object.html#include">include</a></li>
+            
+                <li data-name="Object#includeOwner"><a href="Object.html#includeOwner">includeOwner</a></li>
+            
+                <li data-name="Object#increment"><a href="Object.html#increment">increment</a></li>
+            
+                <li data-name="Object#isNew"><a href="Object.html#isNew">isNew</a></li>
+            
+                <li data-name="Object#multiply"><a href="Object.html#multiply">multiply</a></li>
+            
+                <li data-name="Object#off"><a href="Object.html#off">off</a></li>
+            
+                <li data-name="Object#on"><a href="Object.html#on">on</a></li>
+            
+                <li data-name="Object#only"><a href="Object.html#only">only</a></li>
+            
+                <li data-name="Object#onlyReference"><a href="Object.html#onlyReference">onlyReference</a></li>
+            
+                <li data-name="Object#pullValue"><a href="Object.html#pullValue">pullValue</a></li>
+            
+                <li data-name="Object#pullValueAtIndex"><a href="Object.html#pullValueAtIndex">pullValueAtIndex</a></li>
+            
+                <li data-name="Object#pushValue"><a href="Object.html#pushValue">pushValue</a></li>
+            
+                <li data-name="Object#pushValueAtIndex"><a href="Object.html#pushValueAtIndex">pushValueAtIndex</a></li>
+            
+                <li data-name="Object#removeHeader"><a href="Object.html#removeHeader">removeHeader</a></li>
+            
+                <li data-name="Object#save"><a href="Object.html#save">save</a></li>
+            
+                <li data-name="Object#saveAsDraft"><a href="Object.html#saveAsDraft">saveAsDraft</a></li>
+            
+                <li data-name="Object#set"><a href="Object.html#set">set</a></li>
+            
+                <li data-name="Object#setACL"><a href="Object.html#setACL">setACL</a></li>
+            
+                <li data-name="Object#setHeaders"><a href="Object.html#setHeaders">setHeaders</a></li>
+            
+                <li data-name="Object#setLocation"><a href="Object.html#setLocation">setLocation</a></li>
+            
+                <li data-name="Object#setReference"><a href="Object.html#setReference">setReference</a></li>
+            
+                <li data-name="Object#setReferenceWhere"><a href="Object.html#setReferenceWhere">setReferenceWhere</a></li>
+            
+                <li data-name="Object#setReferenceWithObject"><a href="Object.html#setReferenceWithObject">setReferenceWithObject</a></li>
+            
+                <li data-name="Object#setTags"><a href="Object.html#setTags">setTags</a></li>
+            
+                <li data-name="Object#setUid"><a href="Object.html#setUid">setUid</a></li>
+            
+                <li data-name="Object#timeless"><a href="Object.html#timeless">timeless</a></li>
+            
+                <li data-name="Object#toBackboneModel"><a href="Object.html#toBackboneModel">toBackboneModel</a></li>
+            
+                <li data-name="Object#updateValueAtIndex"><a href="Object.html#updateValueAtIndex">updateValueAtIndex</a></li>
+            
+                <li data-name="Object#upsert"><a href="Object.html#upsert">upsert</a></li>
+            
+                <li data-name="Object#upsertForReference"><a href="Object.html#upsertForReference">upsertForReference</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Presence">
+            <span class="title">
+                <a href="Presence.html">Presence</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Presence#acceptRequests"><a href="Presence.html#acceptRequests">acceptRequests</a></li>
+            
+                <li data-name="Presence#addInWhitelist"><a href="Presence.html#addInWhitelist">addInWhitelist</a></li>
+            
+                <li data-name="Presence#enable"><a href="Presence.html#enable">enable</a></li>
+            
+                <li data-name="Presence#getApplicationUser"><a href="Presence.html#getApplicationUser">getApplicationUser</a></li>
+            
+                <li data-name="Presence#getRequests"><a href="Presence.html#getRequests">getRequests</a></li>
+            
+                <li data-name="Presence#getStatus"><a href="Presence.html#getStatus">getStatus</a></li>
+            
+                <li data-name="Presence#getStatusMessage"><a href="Presence.html#getStatusMessage">getStatusMessage</a></li>
+            
+                <li data-name="Presence#getWhiteListUsers"><a href="Presence.html#getWhiteListUsers">getWhiteListUsers</a></li>
+            
+                <li data-name="Presence#getWhiteListUsers"><a href="Presence.html#getWhiteListUsers">getWhiteListUsers</a></li>
+            
+                <li data-name="Presence#isEnabled"><a href="Presence.html#isEnabled">isEnabled</a></li>
+            
+                <li data-name="Presence#isPublic"><a href="Presence.html#isPublic">isPublic</a></li>
+            
+                <li data-name="Presence#removeFromWhitelist"><a href="Presence.html#removeFromWhitelist">removeFromWhitelist</a></li>
+            
+                <li data-name="Presence#save"><a href="Presence.html#save">save</a></li>
+            
+                <li data-name="Presence#setPublic"><a href="Presence.html#setPublic">setPublic</a></li>
+            
+                <li data-name="Presence#setStatusMessage"><a href="Presence.html#setStatusMessage">setStatusMessage</a></li>
+            
+                <li data-name="Presence#setWhiteList"><a href="Presence.html#setWhiteList">setWhiteList</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Query">
+            <span class="title">
+                <a href="Query.html">Query</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Query#addQueryParams"><a href="Query.html#addQueryParams">addQueryParams</a></li>
+            
+                <li data-name="Query#afterUid"><a href="Query.html#afterUid">afterUid</a></li>
+            
+                <li data-name="Query#and"><a href="Query.html#and">and</a></li>
+            
+                <li data-name="Query#ascending"><a href="Query.html#ascending">ascending</a></li>
+            
+                <li data-name="Query#beforeUid"><a href="Query.html#beforeUid">beforeUid</a></li>
+            
+                <li data-name="Query#containedIn"><a href="Query.html#containedIn">containedIn</a></li>
+            
+                <li data-name="Query#count"><a href="Query.html#count">count</a></li>
+            
+                <li data-name="Query#delete"><a href="Query.html#delete">delete</a></li>
+            
+                <li data-name="Query#deltaAll"><a href="Query.html#deltaAll">deltaAll</a></li>
+            
+                <li data-name="Query#deltaCreatedFrom"><a href="Query.html#deltaCreatedFrom">deltaCreatedFrom</a></li>
+            
+                <li data-name="Query#deltaDeletedFrom"><a href="Query.html#deltaDeletedFrom">deltaDeletedFrom</a></li>
+            
+                <li data-name="Query#deltaUpdatedFrom"><a href="Query.html#deltaUpdatedFrom">deltaUpdatedFrom</a></li>
+            
+                <li data-name="Query#descending"><a href="Query.html#descending">descending</a></li>
+            
+                <li data-name="Query#doesNotExists"><a href="Query.html#doesNotExists">doesNotExists</a></li>
+            
+                <li data-name="Query#dontSelect"><a href="Query.html#dontSelect">dontSelect</a></li>
+            
+                <li data-name="Query#except"><a href="Query.html#except">except</a></li>
+            
+                <li data-name="Query#exceptReference"><a href="Query.html#exceptReference">exceptReference</a></li>
+            
+                <li data-name="Query#exec"><a href="Query.html#exec">exec</a></li>
+            
+                <li data-name="Query#exists"><a href="Query.html#exists">exists</a></li>
+            
+                <li data-name="Query#getHeaders"><a href="Query.html#getHeaders">getHeaders</a></li>
+            
+                <li data-name="Query#greaterThan"><a href="Query.html#greaterThan">greaterThan</a></li>
+            
+                <li data-name="Query#greaterThanOrEqualTo"><a href="Query.html#greaterThanOrEqualTo">greaterThanOrEqualTo</a></li>
+            
+                <li data-name="Query#include"><a href="Query.html#include">include</a></li>
+            
+                <li data-name="Query#includeCount"><a href="Query.html#includeCount">includeCount</a></li>
+            
+                <li data-name="Query#includeDrafts"><a href="Query.html#includeDrafts">includeDrafts</a></li>
+            
+                <li data-name="Query#includeOwner"><a href="Query.html#includeOwner">includeOwner</a></li>
+            
+                <li data-name="Query#includeSchema"><a href="Query.html#includeSchema">includeSchema</a></li>
+            
+                <li data-name="Query#inQuery"><a href="Query.html#inQuery">inQuery</a></li>
+            
+                <li data-name="Query#lessThan"><a href="Query.html#lessThan">lessThan</a></li>
+            
+                <li data-name="Query#lessThanOrEqualTo"><a href="Query.html#lessThanOrEqualTo">lessThanOrEqualTo</a></li>
+            
+                <li data-name="Query#limit"><a href="Query.html#limit">limit</a></li>
+            
+                <li data-name="Query#matches"><a href="Query.html#matches">matches</a></li>
+            
+                <li data-name="Query#nearLocation"><a href="Query.html#nearLocation">nearLocation</a></li>
+            
+                <li data-name="Query#notContainedIn"><a href="Query.html#notContainedIn">notContainedIn</a></li>
+            
+                <li data-name="Query#notEqualTo"><a href="Query.html#notEqualTo">notEqualTo</a></li>
+            
+                <li data-name="Query#notInQuery"><a href="Query.html#notInQuery">notInQuery</a></li>
+            
+                <li data-name="Query#only"><a href="Query.html#only">only</a></li>
+            
+                <li data-name="Query#onlyDrafts"><a href="Query.html#onlyDrafts">onlyDrafts</a></li>
+            
+                <li data-name="Query#onlyReference"><a href="Query.html#onlyReference">onlyReference</a></li>
+            
+                <li data-name="Query#or"><a href="Query.html#or">or</a></li>
+            
+                <li data-name="Query#removeHeader"><a href="Query.html#removeHeader">removeHeader</a></li>
+            
+                <li data-name="Query#removeMasterKey"><a href="Query.html#removeMasterKey">removeMasterKey</a></li>
+            
+                <li data-name="Query#select"><a href="Query.html#select">select</a></li>
+            
+                <li data-name="Query#setBlacklist"><a href="Query.html#setBlacklist">setBlacklist</a></li>
+            
+                <li data-name="Query#setCachePolicy"><a href="Query.html#setCachePolicy">setCachePolicy</a></li>
+            
+                <li data-name="Query#setHeader"><a href="Query.html#setHeader">setHeader</a></li>
+            
+                <li data-name="Query#setMasterKey"><a href="Query.html#setMasterKey">setMasterKey</a></li>
+            
+                <li data-name="Query#setRawQuery"><a href="Query.html#setRawQuery">setRawQuery</a></li>
+            
+                <li data-name="Query#skip"><a href="Query.html#skip">skip</a></li>
+            
+                <li data-name="Query#toBackbone"><a href="Query.html#toBackbone">toBackbone</a></li>
+            
+                <li data-name="Query#toJSON"><a href="Query.html#toJSON">toJSON</a></li>
+            
+                <li data-name="Query#where"><a href="Query.html#where">where</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Role">
+            <span class="title">
+                <a href="Role.html">Role</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Role.getRoleQuery"><a href="Role.html#.getRoleQuery">getRoleQuery</a></li>
+            
+                <li data-name="Role.off"><a href="Role.html#.off">off</a></li>
+            
+                <li data-name="Role#addRole"><a href="Role.html#addRole">addRole</a></li>
+            
+                <li data-name="Role#addRoles"><a href="Role.html#addRoles">addRoles</a></li>
+            
+                <li data-name="Role#addUser"><a href="Role.html#addUser">addUser</a></li>
+            
+                <li data-name="Role#addUsers"><a href="Role.html#addUsers">addUsers</a></li>
+            
+                <li data-name="Role#getName"><a href="Role.html#getName">getName</a></li>
+            
+                <li data-name="Role#getRoles"><a href="Role.html#getRoles">getRoles</a></li>
+            
+                <li data-name="Role#getRoleUid"><a href="Role.html#getRoleUid">getRoleUid</a></li>
+            
+                <li data-name="Role#getUsers"><a href="Role.html#getUsers">getUsers</a></li>
+            
+                <li data-name="Role#hasRole"><a href="Role.html#hasRole">hasRole</a></li>
+            
+                <li data-name="Role#hasUser"><a href="Role.html#hasUser">hasUser</a></li>
+            
+                <li data-name="Role#off"><a href="Role.html#off">off</a></li>
+            
+                <li data-name="Role#removeRole"><a href="Role.html#removeRole">removeRole</a></li>
+            
+                <li data-name="Role#removeUser"><a href="Role.html#removeUser">removeUser</a></li>
+            
+                <li data-name="Role#setName"><a href="Role.html#setName">setName</a></li>
+            
+                <li data-name="Role#setRoleUid"><a href="Role.html#setRoleUid">setRoleUid</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Upload">
+            <span class="title">
+                <a href="Upload.html">Upload</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Upload.on"><a href="Upload.html#.on">on</a></li>
+            
+                <li data-name="Upload#delete"><a href="Upload.html#delete">delete</a></li>
+            
+                <li data-name="Upload#download"><a href="Upload.html#download">download</a></li>
+            
+                <li data-name="Upload#fetch"><a href="Upload.html#fetch">fetch</a></li>
+            
+                <li data-name="Upload#getACL"><a href="Upload.html#getACL">getACL</a></li>
+            
+                <li data-name="Upload#getContentType"><a href="Upload.html#getContentType">getContentType</a></li>
+            
+                <li data-name="Upload#getDownloadLink"><a href="Upload.html#getDownloadLink">getDownloadLink</a></li>
+            
+                <li data-name="Upload#getFileName"><a href="Upload.html#getFileName">getFileName</a></li>
+            
+                <li data-name="Upload#getFileSize"><a href="Upload.html#getFileSize">getFileSize</a></li>
+            
+                <li data-name="Upload#getHeaders"><a href="Upload.html#getHeaders">getHeaders</a></li>
+            
+                <li data-name="Upload#getTags"><a href="Upload.html#getTags">getTags</a></li>
+            
+                <li data-name="Upload#getUid"><a href="Upload.html#getUid">getUid</a></li>
+            
+                <li data-name="Upload#isNew"><a href="Upload.html#isNew">isNew</a></li>
+            
+                <li data-name="Upload#on"><a href="Upload.html#on">on</a></li>
+            
+                <li data-name="Upload#save"><a href="Upload.html#save">save</a></li>
+            
+                <li data-name="Upload#setACL"><a href="Upload.html#setACL">setACL</a></li>
+            
+                <li data-name="Upload#setFile"><a href="Upload.html#setFile">setFile</a></li>
+            
+                <li data-name="Upload#setTags"><a href="Upload.html#setTags">setTags</a></li>
+            
+                <li data-name="Upload#setUid"><a href="Upload.html#setUid">setUid</a></li>
+            
+                <li data-name="Upload#unsetFile"><a href="Upload.html#unsetFile">unsetFile</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Upsert">
+            <span class="title">
+                <a href="Upsert.html">Upsert</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="User">
+            <span class="title">
+                <a href="User.html">User</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="User.anyAuth"><a href="User.html#.anyAuth">anyAuth</a></li>
+            
+                <li data-name="User.clearSession"><a href="User.html#.clearSession">clearSession</a></li>
+            
+                <li data-name="User.generateAuthtoken"><a href="User.html#.generateAuthtoken">generateAuthtoken</a></li>
+            
+                <li data-name="User.getCurrentUser()"><a href="User.html#.getCurrentUser()">getCurrentUser()</a></li>
+            
+                <li data-name="User.getCurrentUserPresence"><a href="User.html#.getCurrentUserPresence">getCurrentUserPresence</a></li>
+            
+                <li data-name="User.isAuthenticated"><a href="User.html#.isAuthenticated">isAuthenticated</a></li>
+            
+                <li data-name="User.off"><a href="User.html#.off">off</a></li>
+            
+                <li data-name="User.on"><a href="User.html#.on">on</a></li>
+            
+                <li data-name="User.setSession"><a href="User.html#.setSession">setSession</a></li>
+            
+                <li data-name="User#activate"><a href="User.html#activate">activate</a></li>
+            
+                <li data-name="User#deactivate"><a href="User.html#deactivate">deactivate</a></li>
+            
+                <li data-name="User#fetchUserUidByEmail"><a href="User.html#fetchUserUidByEmail">fetchUserUidByEmail</a></li>
+            
+                <li data-name="User#fetchUserUidByFacebookUserId"><a href="User.html#fetchUserUidByFacebookUserId">fetchUserUidByFacebookUserId</a></li>
+            
+                <li data-name="User#fetchUserUidByGoogleEmail"><a href="User.html#fetchUserUidByGoogleEmail">fetchUserUidByGoogleEmail</a></li>
+            
+                <li data-name="User#fetchUserUidByTwitter"><a href="User.html#fetchUserUidByTwitter">fetchUserUidByTwitter</a></li>
+            
+                <li data-name="User#forgotPassword"><a href="User.html#forgotPassword">forgotPassword</a></li>
+            
+                <li data-name="User#getPresence"><a href="User.html#getPresence">getPresence</a></li>
+            
+                <li data-name="User#login"><a href="User.html#login">login</a></li>
+            
+                <li data-name="User#loginWithFacebook"><a href="User.html#loginWithFacebook">loginWithFacebook</a></li>
+            
+                <li data-name="User#loginWithGoogle"><a href="User.html#loginWithGoogle">loginWithGoogle</a></li>
+            
+                <li data-name="User#loginWithTwitter"><a href="User.html#loginWithTwitter">loginWithTwitter</a></li>
+            
+                <li data-name="User#logout"><a href="User.html#logout">logout</a></li>
+            
+                <li data-name="User#off"><a href="User.html#off">off</a></li>
+            
+                <li data-name="User#on"><a href="User.html#on">on</a></li>
+            
+                <li data-name="User#register"><a href="User.html#register">register</a></li>
+            
+                <li data-name="User#requestPresenceAccess"><a href="User.html#requestPresenceAccess">requestPresenceAccess</a></li>
+            
+                <li data-name="User#resetPassword"><a href="User.html#resetPassword">resetPassword</a></li>
+            
+                <li data-name="User#updateUserProfile"><a href="User.html#updateUserProfile">updateUserProfile</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+    </ul>
+</div>
+    <div class="main">
+        <h1 class="page-title" data-filename="Object.html">Class: Object</h1>
+        
+
+
+
+<section>
+    
+<header>
+    <h2>
+    Object
+    </h2>
+    
+        <div class="class-description">An object is an instance of a class.</div>
+    
+</header>  
+
+<article>
+    <div class="container-overview">
+    
+    
+    
+        
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="Object">
+            
+            new Object<span class="signature">(uid)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 10
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Represents an object of a class
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>uid</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+|
+
+<span class="param-type">object</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The uid of this object or an object with initial values</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend
+// 'blt12sampleb09157' is uid of an object on Built.io Backend
+var Project = Built.App('blt5d4sample2633b').Class('project').Object; 
+// Example demonstrate constructor taking an object's uid as argument
+var obj    = Project('blt12sampleb09157');
+
+// Example demonstrate constructor taking an initial value
+var obj    = Project({
+	name:'abc',
+	email:['abc@email.com','pqr@email.com']
+});</code></pre>
+    
+
+    
+</dd>
+
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <h3 class="subsection-title">Methods</h3>
+        
+        <dl>
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id=".BackboneCollection">
+            
+            <span class="type-signature static">static</span>Object.BackboneCollection<span class="signature">(config, model)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Backbone}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 1317
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Returns a Backbone collection
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>config</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Takes a plain JavaScript object where "objects" key is used to pass array of objects and "query" key is used to specify a query.</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>model</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Model</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Takes a Backbone model to be used by the collection for conversion. (If null is specified Built's default Backbone model is used)</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+a BackBone object
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  var app     = Built.App('blt5d4sample2633b');
+var Project  = app.Class('project').Object; 
+var Query   = app.Class('project').Query;
+
+var project      = Project({
+	username:'Super Project #41!'
+});
+var project1      = Project({
+	username:'Super Project #41!'
+});
+
+var projectArray = [project,project1];
+
+var model = Backbone.Model.extend({
+getName:function(){
+	this.get("username");
+},
+setName:function(name){
+	this.set("username", name);
+},
+idAttribute:"uid"
+});
+
+var backbone    = Project.BackboneCollection({ 
+	objects : projectArray,
+	model   : model
+});
+// Converts the objects in projectArray to Backbone collection using the given model
+
+var query = Query()
+            .where('username','Super Project #41!');
+
+var backbone = Project.BackboneCollection({
+	query : query,
+	model : model
+});
+
+// Query to Built.io Backend with given query and converts the returned objects to collection using the given model
+//Now backbone can be used to fetch, save, delete, update object on Built.io Backend.
+
+backbone.fetch();
+  </code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id=".off">
+            
+            <span class="type-signature static">static</span>Object.off<span class="signature">(event, callback)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            realtime.js, line 1608
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p class="text-danger"> 
+			[Only avaliable with realtime plugin]
+	</p>
+	This function unregisters a single or all event listener(s) from Object constructor. 
+	</br>
+	</br>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>event</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The event whose listener needs to be unregistered [Optional]</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The callback function used while registering [Optional]</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    <h5>Throws:</h5>
+    <ul>
+            <li>
+
+    <div class="param-desc">
+    
+        new Error('Callback function to be removed is missing')
+    
+    </div>
+
+</li>
+        
+            <li>
+
+    <div class="param-desc">
+    
+        new Error('Event name is missing');
+    
+    </div>
+
+</li>
+        </ul>
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>// 'blt5d4sample2633b' is a dummy Application API key
+// app.Class('class_name').Object returns a 'Object' constructor
+var app    = Built.App('blt5d4sample2633b').enableRealtime();
+var Person =  app.Class('person').Object;
+
+function cb(data){
+	console.log(data);
+}
+// Sets up a listener for create event
+Person.on('delete',cb);   
+
+// Sets up a listener for broadcast event
+Person.on('broadcast',cb);  
+
+// Specifically removes the delete listener
+Person.off('delete',cb); 
+
+// Removes all callbacks attached for delete event on this resource
+Person.off('delete');  
+
+// Throws "Event name is missing"
+Person.off(cb)            
+
+// Removes all listeners on Person class
+Person.off();           
+
+		</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id=".on">
+            
+            <span class="type-signature static">static</span>Object.on<span class="signature">(event, callback)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            realtime.js, line 1051
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p class="text-danger"> 
+			[Only avaliable with realtime plugin]
+	</p>
+	This function registers an event listener on Object constructor. 
+	</br>
+	</br>
+	<p><u>Given below is the list of supported events.</u></p>
+	<ul>
+		<li><b>Create</b></li >
+			<p> The 'create' event is triggered when a new object is created in the class with which the Object constructor is associated. Registered callback is invoked with the created object.</p>
+
+		<li><b>Update</b></li >
+			<p> Update event is triggered when any object in the class with which the Object constructor is associated is modified. Registered callback is invoked with the updated object.</p>
+
+		<li><b>Delete</b></li>
+			<p> Delete event is triggered when any object in the class with which the Object constructor is associated is deleted. Registered callback is invoked with the deleted object.</p>
+
+		<li><b>Broadcast</b></li>
+			<p> Broadcast event is triggered when a message is broadcast for all objects belonging to a particular class. Registered callback is invoked with the broadcasted message.</p>
+	</ul >
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>event</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The event on which the listener should be registered</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The callback function to be invoked on event trigger</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>// 'blt5d4sample2633b' is a dummy Application API key
+// app.Class('class_name').Object() returns a 'Object' constructor
+var app    = Built.App('blt5d4sample2633b').enableRealtime();
+var Person =  app.Class('person').Object;
+
+Person.on('create', function(person) {
+	// created person object
+});
+Person.on('update', function(person) {
+	// updated person object
+});
+Person.on('delete', function(person) {
+	// deleted person object
+});
+Person.on('broadcast', function(message) {
+	// The message is broadcasted to all objects of person class
+});</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="addGroup">
+            
+            addGroup<span class="signature">(group)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 675
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Adds a group field
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>group</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Built.html#.Group">Built.Group</a></span>
+|
+
+<span class="param-type"><a href="Built.html#.GroupMultiple">Built.GroupMultiple</a></span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Instance of Built.Group or Built.GroupMultiple</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'details' is a group field in bug class 
+var app  = Built.App('blt5d4sample2633b');
+var Bugs = app.Class('bugs').Object;
+var bug  = Bugs();
+// Consider 'bugs' class has a group field 'details' which contains a reference field 'project'
+var details = Built.Group('details',{
+		title: 'UI bug'
+})            
+bug = bug.addGroup(group);
+bug.save()
+.then(function(bug){
+	console.log(bug.toJSON())
+})</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="addQuery">
+            
+            addQuery<span class="signature">(key, object)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 892
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Adds a custom query to the object
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Query parameter's name</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>object</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Variable</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Query parameter's value</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project    = Built.App('blt5d4sample2633b').Class('project')
+		  .Object('blt12sampleb09157');
+project        = project.addQuery('include_owner',true); 
+project.fetch()
+.then(function(object){
+	// do something
+});</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="assign">
+            
+            assign<span class="signature">(data)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 282
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Assigns parameters to the object
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>data</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Plain JavaScript object with new contents</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend
+var Project      = Built.App('blt5d4sample2633b').Class('project').Object;
+var project      = Project({
+	name: 'Super Project #41!'
+});	                         
+project          = project.assign({version: 2});    </code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="decrement">
+            
+            decrement<span class="signature">(key, number)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 179
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Decreases the number field by a given amount (Note: Decrement is done on the server)
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Uid of the number field</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>number</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                By how much amount to decrement</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    <h5>Throws:</h5>
+    
+            
+
+    <div class="param-desc">
+    
+        new Error('Not a number');
+    
+    </div>
+
+
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project  = Built.App('blt5d4sample2633b').Class('project').Object();
+project      = project.decrement('version',2);</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="delete">
+            
+            delete<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Promise.&lt;<a href="Object.html">Object</a>>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 1187
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Deletes the object from Built.io Backend
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    <h5>Throws:</h5>
+    
+            
+
+    <div class="param-desc">
+    
+        new Error('Uid not found');
+    
+    </div>
+
+
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend	
+var project = Built.App('blt5d4sample2633b').Class('project')
+		.Object('blt12sampleb09157'); 
+project.delete()
+.then(function(){
+	// console.log('object deleted successfully')
+});</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="divide">
+            
+            divide<span class="signature">(key, number)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 221
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Divides the number field by the given amount (Note: Division is done on the server)
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Uid of number field</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>number</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                By how much amount to divide.</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    <h5>Throws:</h5>
+    
+            
+
+    <div class="param-desc">
+    
+        new Error('Not a number');
+    
+    </div>
+
+
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project  = Built.App('blt5d4sample2633b').Class('project').Object();
+project      = project.divide('version', 2); </code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="except">
+            
+            except<span class="signature">(fieldUidArray)</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 966
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Removes a set of fields from response
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>fieldUidArray</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Array of field uid's that need to be excluded from response</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>// 'blt5d4sample2633b' is a dummy Application API key
+// 'Class('class_name').Object returns a 'Object' constructor
+// 'project' is a uid of a class on Built.io Backed
+var obj = Built.App('blt5d4sample2633b').Class('project').Object('blt12sampleb09157');
+obj     = obj.except(['username']);
+obj.fetch()
+.then(function(obj){
+	// The response won't contain 'username' field
+	console.log(obj.toJSON())
+});</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="exceptReference">
+            
+            exceptReference<span class="signature">(Reference, fieldUidArray)</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 988
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Removes a set of fields from the referenced object
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>Reference</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                field uid</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>fieldUidArray</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Array of field uids that need to be excluded from the referenced object</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>// 'blt5d4sample2633b' is a dummy Application API key
+// 'Class('class_name').Object returns a 'Object' constructor
+// 'project' is a uid of a class on Built.io Backed
+var obj = Built.App('blt5d4sample2633b').Class('project').Object('blt12sampleb09157');
+var obj = obj.include(['bug'])
+obj     = obj.exceptReference('bug',['description']); //description is a reference field that references the bug class
+obj.fetch()
+.then(function(obj){
+	// The response won't contain 'description' field in the Address class object
+	console.log(obj.toJSON())
+});</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="fetch">
+            
+            fetch<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Promise.&lt;<a href="Object.html">Object</a>>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 1152
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Fetches the latest version of the object from Built.io Backend
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    <h5>Throws:</h5>
+    
+            
+
+    <div class="param-desc">
+    
+        new Error('Uid not found');
+    
+    </div>
+
+
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project = Built.App('blt5d4sample2633b').Class('project')
+	       .Object('blt12sampleb09157'); 
+project.fetch()
+.then(function(project){
+	// object fetch from Built.io Backend
+});</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="get">
+            
+            get<span class="signature">(property)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{variable}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 74
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Gets the data for the given property
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>property</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The object's property</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend
+// 'blt12sampleb09157' is uid of an object on Built.io Backend
+var project = Built.App('blt5d4sample2633b').Class('project').Object({
+	name:'Super Project #41!',
+	description: 'Small description'
+});
+var value = project.get('name');</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="getACL">
+            
+            getACL<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="ACL.html">ACL</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 653
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Gets the ACL object from an upload
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend	
+// 'blt12sampleb09157' is uid of an object on Built.io Backend	
+var project  = Built.App('blt5d4sample2633b').Class('project').Object();
+project.fetch()
+.then(function(project){
+	console.log(project.getACL())
+}) </code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="getData">
+            
+            getData<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{object}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 263
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Returns the JSON representation of object's data
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend 
+var project  = Built.App('blt5d4sample2633b').Class('project').Object({
+	name:'Super Project #41!'
+});
+var data    = project.getData();</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="getGroupForKey">
+            
+            getGroupForKey<span class="signature">(fieldUid)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Group.html">Group</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 1218
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Wraps a sub-group in Built.Group construct and returns it
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>fieldUid</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">field</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The uid of the group field</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    <h5>Throws:</h5>
+    
+            
+
+    <div class="param-desc">
+    
+        new Error('Key not found in Object');
+    
+    </div>
+
+
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>// 'blt5d4sample2633b' is a dummy Application API key
+// 'manager' is a group field in Project class.
+// 'blt12sampleb09157' is uid of a object in 'project' class
+var project = Built.App('blt5d4sample2633b').Class('project')
+	       .Object('blt12sampleb09157')
+project.fetch()
+.then(function(project) {
+	var manager = project.getGroupForKey("manager")
+	console.log(manager.toJSON())
+})</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="getHeaders">
+            
+            getHeaders<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{object}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 98
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Gets the header object
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend
+// 'blt12sampleb09157' is uid of an object on Built.io Backend
+var project  = Built.App('blt5d4sample2633b').Class('project').Object();
+var headers  = project().getHeaders();</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="getLocation">
+            
+            getLocation<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Location.html">Location</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 412
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Returns the location of this object
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend
+var project    = Built.App('blt5d4sample2633b').Class('project').Object();
+var location   = project.getLocation();</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="getUid">
+            
+            getUid<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{String}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 332
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Retrieves the uid of the object
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project  = Built.App('blt5d4sample2633b').Class('project')
+	        .Object('blt12sampleb09157');
+project.getUid();</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="has">
+            
+            has<span class="signature">(key)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Boolean}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 605
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Checks whether the object has a given property
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The property to be checked</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project  = Built.App('blt5d4sample2633b').Class('project').Object({
+	name:'Super Project #41!',
+	version :2
+});
+var boolean = project.has('name');</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="include">
+            
+            include<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 936
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        By default, when a object is fetched referenced object's uids are returned in response. Using this method you can
+retrieve the reference object itself.
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+var project = Built.App('blt5d4sample2633b').Class('project').Object();
+var project = project.include(['project']);
+project.fetch()
+.then(function(project){
+	console.log(project.toJSON())
+})</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="includeOwner">
+            
+            includeOwner<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 920
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Includes the owner of the object in response
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+var project = Built.App('blt5d4sample2633b').Class('project').Object();
+var project = project.includeOwner();</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="increment">
+            
+            increment<span class="signature">(key, number)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 200
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Increases the number field by a  given amount (Note: Increment is done on the server)
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Uid of number field</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>number</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                By how much amount to increment</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    <h5>Throws:</h5>
+    
+            
+
+    <div class="param-desc">
+    
+        new Error('Not a number');
+    
+    </div>
+
+
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project  = Built.App('blt5d4sample2633b').Class('project').Object();
+project      = project.increment('version',10); //Increases age field value by 10</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="isNew">
+            
+            isNew<span class="signature">(uid)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 432
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Determines whether uid is assigned to this object or not
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>uid</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Uid of an object</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project    = Built.App('blt5d4sample2633b').Class('project').Object({
+	uid:'blt12sampleb09157'
+});
+var boolean    = project.isNew();</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="multiply">
+            
+            multiply<span class="signature">(key, number)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 242
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Multiplies the number field by the given amount (Note: Multiplication is done on the server)
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Uid of number field</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>number</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                By how much amount to multiple.</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    <h5>Throws:</h5>
+    
+            
+
+    <div class="param-desc">
+    
+        new Error('Not a number');
+    
+    </div>
+
+
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project  = Built.App('blt5d4sample2633b').Class('project').Object();
+project      = project.multiply('version',10); </code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="off">
+            
+            off<span class="signature">(event, callback)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            realtime.js, line 1652
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p class="text-danger"> 
+			[Only avaliable with realtime plugin]
+	</p>
+	This function unregisters a single or all event listener(s) from Object instance. 
+	</br>
+	</br>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>event</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The event whose listener needs to be unregistered [Optional]</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The callback function used while registering [Optional]</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    <h5>Throws:</h5>
+    <ul>
+            <li>
+
+    <div class="param-desc">
+    
+        new Error('Callback function to be removed is missing')
+    
+    </div>
+
+</li>
+        
+            <li>
+
+    <div class="param-desc">
+    
+        new Error('Event name is missing');
+    
+    </div>
+
+</li>
+        </ul>
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>// 'blt5d4sample2633b' is a dummy Application API key
+// 'blt111sample2211r' is uid of an object on Built.io Backend
+var app    = Built.App('blt5d4sample2633b').enableRealtime();
+var person = app.Class('person').Object('blt111sample2211r');
+
+function cb(data){
+	console.log(data);
+}
+
+// Sets up a listener for delete event
+person.on('delete',cb);  
+
+// Sets up a listener for broadcast event
+person.on('broadcast',cb); 
+
+// Specifically removes the delete listener
+person.off('delete',cb); 
+
+// Removes all listeners on Person
+person.off();       
+   
+// Removes all callbacks attached for delete event on this resource
+person.off('delete');  
+
+// Throws "Event name is missing"
+person.off(cb)        
+   
+	</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="on">
+            
+            on<span class="signature">(event, callback)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            realtime.js, line 1099
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p class="text-danger"> 
+			[Only avaliable with realtime plugin]
+	</p>
+	This function registers an event listener on Object instance.
+	</br>
+	</br>
+	<p><u>Given below is the list of supported events.</u></p>
+	<ul>
+		<li><b>Update</b></li >
+			<p> The 'update' event is triggered when the content and/or the ACL of this object is modified. Registered callback is invoked with the updated object.</p>
+
+		<li><b>Delete</b></li>
+			<p> Delete event is triggered when an object is deleted from Built.io Backend. Registered callback is invoked with the deleted object.</p>
+
+		<li><b>Broadcast</b></li>
+			<p> Broadcast event is triggered when a message is broadcasted over this object. Registered callback is invoked with the broadcast message.</p>
+	</ul >
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>event</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The event on which listener should be registered</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The callback function to be invoked on event trigger</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    <h5>Throws:</h5>
+    
+            
+
+    <div class="param-desc">
+    
+        new Error("Uid not found");
+    
+    </div>
+
+
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>// 'blt5d4sample2633b' is a dummy Application API key
+// app.Clas('class_name').Object() returns a 'Object' instance  
+var app    = Built.App('blt5d4sample2633b').enableRealtime();
+var person =  app.Class('person').Object('blt5dsamplef62a633b');
+person.on('update', function(person) {
+	// updated person object
+});
+person.on('delete', function(person) {
+	// deleted person object
+});
+person.on('broadcast', function(message) {
+	// The message broadcasted on this object
+});
+	</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="only">
+            
+            only<span class="signature">(Array)</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 1012
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        This method should be used when it is required to only have a set of fields in the base class object's response
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>Array</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                of field uid's that need to be present in the response</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>// 'blt5d4sample2633b' is a dummy Application API key
+// 'Class('class_name').Object returns a 'Object' constructor
+// 'project' is a uid of a class on Built.io Backed
+// Consider project
+var obj = Built.App('blt5d4sample2633b').Class('project').Object('blt12sampleb09157');
+obj     = obj.only(['username']);
+obj.fetch()
+.then(function(obj){
+  // The response will only have the username field
+	console.log(obj.toJSON())	
+});</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="onlyReference">
+            
+            onlyReference<span class="signature">(Reference, Array)</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 1035
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        This method should be used when it is required to only have a set of fields in the referenced object
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>Reference</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                field uid</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>Array</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                of field uids that need to be present in the referenced object</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>// 'blt5d4sample2633b' is a dummy Application API key
+// 'Class('class_name').Object returns a 'Object' constructor
+// 'project' is a uid of a class on Built.io Backed
+// Consider project
+var obj = Built.App('blt5d4sample2633b').Class('project').Object('blt12sampleb09157');
+obj     = obj.include(['project']);
+// 'name' is a reference field that references the Project class
+obj     = obj.onlyReference('project',['name']); 
+
+obj.fetch()
+.then(function(obj){
+	// The response will only have name field in the Project object
+	console.log(obj.toJSON())
+});</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="pullValue">
+            
+            pullValue<span class="signature">(key, value)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 502
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        For the given field marked multiple, it deletes the first matched value. The method ensures pull operation to be atmoic
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Uid of field</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>value</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+|
+
+<span class="param-type">Array</span>
+|
+
+<span class="param-type"><a href="Object.html">Object</a></span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Values to be deleted</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project    = Built.App('blt5d4sample2633b').Class('project').Object();
+project        = project.pullValue('multi_field', {
+	first_name:'first',
+	second_name:'second'
+});</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="pullValueAtIndex">
+            
+            pullValueAtIndex<span class="signature">(key, index)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 526
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        For the given field marked multiple, it deletes the value at the given index. The method ensures pull operation to be atmoic
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Uid of field</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>index</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Index at which the value should be deleted</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    <h5>Throws:</h5>
+    
+            
+
+    <div class="param-desc">
+    
+        new Error('Index value inappropriate')
+    
+    </div>
+
+
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project    = Built.App('blt5d4sample2633b').Class('project').Object();
+project        = project.pullValueAtIndex('multi_field', 1);</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="pushValue">
+            
+            pushValue<span class="signature">(key, value)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 478
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Pushes a value in the multiple field. The method ensures push operation to be atmoic
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Uid of field</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>value</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+|
+
+<span class="param-type"><a href="Object.html">Object</a></span>
+|
+
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Value to be pushed</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+  // 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project    = Built.App('blt5d4sample2633b').Class('project').Object();
+project        = project.pushValue('multi_field', {
+	first_name:'Super Project #41!',
+	second_name:'Super Project #41!'
+});</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="pushValueAtIndex">
+            
+            pushValueAtIndex<span class="signature">(key, value, index)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 453
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Pushes a value at a specified index in the multiple field. The method ensures push operation to be atmoic
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Uid of the field</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>value</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+|
+
+<span class="param-type"><a href="Object.html">Object</a></span>
+|
+
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Value to be pushed</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>index</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Index at which the value should be pushed</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    <h5>Throws:</h5>
+    
+            
+
+    <div class="param-desc">
+    
+        new Error('Index value inappropriate')
+    
+    </div>
+
+
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project    = Built.App('blt5d4sample2633b').Class('project').Object();
+project        = project.pushValueAtIndex('multi_field', {
+	first_name:'Super Project #41!',
+	second_name:'Super Project #41!'
+} ,1);</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="removeHeader">
+            
+            removeHeader<span class="signature">(header)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 148
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Removes a header from the object
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>header</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The header to be removed</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend
+// 'blt12sampleb09157' is uid of an object on Built.io Backend
+var project  = Built.App('blt5d4sample2633b').Class('project').Object();
+var project  = project.removeHeader('custom-header');</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="save">
+            
+            save<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Promise.&lt;<a href="Object.html">Object</a>>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 1089
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Saves/updates the object on Built.io Backend
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var Project         = Built.App('blt5d4sample2633b').Class('project').Object;	
+var projectWithUid  = Project({
+	uid:'blt12sampleb09157',
+	name:'Super Project #41!'
+});
+// As the object has a uid property set, an update request is sent to Built.io Backend.
+projectWithUid.save()                
+.then(function(object){
+	// updated object  
+});
+var projectWithoutUid = Project({     
+	name:'Super Project #43!'
+});
+// As the object has no uid property, a create request is sent.
+projectWithoutUid.save()             
+.then(function(object){
+	// created object
+})</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="saveAsDraft">
+            
+            saveAsDraft<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Promise.&lt;<a href="Object.html">Object</a>>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 1062
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Saves an object as draft, i.e., the object bypasses all validations and is not published
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project    = Built.App('blt5d4sample2633b').Class('project').Object();
+project.saveAsDraft({
+	name:'Super Project #41!'
+})
+.then(function(project){
+	console.log(project.toJSON());
+});
+ </code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="set">
+            
+            set<span class="signature">(key, value)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{String}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 306
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Sets a new key value in object
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The key for the new property</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>value</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The value for the new property</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project  = Built.App('blt5d4sample2633b').Class('project')
+	        .Object('blt12sampleb09157');
+project      = project.set('name','Super Project #41!'); </code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="setACL">
+            
+            setACL<span class="signature">(aclObject)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Boolean}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 628
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Sets ACL for this object
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>aclObject</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type"><a href="ACL.html">ACL</a></span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The ACL object</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend	
+// 'blt12sampleb09157' is uid of an object on Built.io Backend	
+var project  = Built.App('blt5d4sample2633b').Class('project').Object();
+var acl      = Built.ACL();
+acl          = acl.setPublicDeleteAccess(true);
+project      = project.setACL(acl);</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="setHeaders">
+            
+            setHeaders<span class="signature">(header, value)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 125
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Sets a new header
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>header</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The header key</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>value</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The header value</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend
+// 'blt12sampleb09157' is uid of an object on Built.io Backend
+var project  = Built.App('blt5d4sample2633b').Class('project').Object();
+project      = project.setHeader('custom-header','custom-value');</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="setLocation">
+            
+            setLocation<span class="signature">(point)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 389
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Sets a location for this object
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>point</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Location.html">Location</a></span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Accepts a instance on Built.Location</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+var location   = Buitl.Location(60,80);
+var project    = Built.App('blt5d4sample2633b').Class('project').Object();
+project        = project.setLocation(location);</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="setReference">
+            
+            setReference<span class="signature">(field_uid, refArray)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 709
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Assigns referenced object's uids to a reference field of an object
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>field_uid</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The uid of the field whose references are to be set</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>refArray</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Array of uids or array of SDK objects</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    <h5>Throws:</h5>
+    
+            
+
+    <div class="param-desc">
+    
+        new Error('new Error('Uid not found'))
+    
+    </div>
+
+
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'bugs' is a uid of a class on Built.io Backend 
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var app      = Built.App('blt5d4sample2633b');
+var Bugs     = app.Class('bugs').Object;
+var Project  = app.Class('project').Object;
+var project  = Project({
+	uid:'blt12sampleb09157'
+});
+var bugs  = Bugs();
+// Using array of SDK objects as argument
+project   = project.setReference('project',[project]);
+// Using array of uid's as argument
+project   = project.setReference('project',['blt12sampleb0333','blt12sampleb09222']);    </code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="setReferenceWhere">
+            
+            setReferenceWhere<span class="signature">(field_uid, query)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 797
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Fires a query on Built.io Backend and the object that fulfills the query condition is assigned in the reference field.
+Note: 'query' should be such that only one object should satisfy it, as Built.io Backend doesn't allow multipe references to be set using a 'query'
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>field_uid</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The uid of the reference field</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>query</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                JavaScript object specifying the conditions</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'bugs' is a uid of a class on Built.io Backend 
+// 'blt12sampleb09111' is uid of an object on Built.io Backend
+var app   = Built.App('blt5d4sample2633b');
+var Bugs  = app.Class('bugs').Object;
+var bug   = Bugs('blt12sampleb09111');             
+bug       = bug.setReferenceWhere('project', {
+	name: 'Super Project #41!'
+}); 
+
+bug.save()
+.then(function(bug){
+	console.log(bug.toJSON())
+});</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="setReferenceWithObject">
+            
+            setReferenceWithObject<span class="signature">(field_uid, refObjs)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 753
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        This method will first create object(s) in referred class and then assigns its uids in the base class's referring field.
+Example: Consider you have a reference field 'project' in class 'Bugs' class. This method would first create object(s) in 'Project' class
+and then assign its 'uids' in 'Bugs' class's reference field 'project'.
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>field_uid</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The uid of the reference field or "." delimated string for 'group' fields as shown in example</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>refObjs</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Array of plain JavaScript objects or SDK objects</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'bugs' is a uid of a class on Built.io Backend 
+// 'blt12sampleb09111' is uid of an object on Built.io Backend
+var app   = Built.App('blt5d4sample2633b');
+var Bugs  = app.Class('bugs').Object;
+var bug   = Bugs('blt12sampleb09111');             
+bug       = bug.setReferenceWithObject('project', [{
+	name: 'Super Project #41!'
+}]); 
+
+bug
+.save()
+.then(function(bug){
+	console.log(bug.toJSON())
+});</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="setTags">
+            
+            setTags<span class="signature">(tags)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 369
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Assign tag(s) to this object
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>tags</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Array of tags</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+var project  = Built.App('blt5d4sample2633b').Class('project').Object(); 
+project      = project.setTags(['tag1','tag2']);</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="setUid">
+            
+            setUid<span class="signature">(uid)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 351
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Assigns a uid
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>uid</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Uid of an object</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+  // 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project  = Built.App('blt5d4sample2633b').Class('project').Object();
+project      = project.setUid('blt12sampleb09157');</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="timeless">
+            
+            timeless<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 873
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Issues a timeless update, which means that the date of creation and the date of updation are not modified
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend
+var project    = Built.App('blt5d4sample2633b').Class('project').Object();
+project        = project.timeless();</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="toBackboneModel">
+            
+            toBackboneModel<span class="signature">(model)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Backbone}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 1263
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Returns a Backbone version of the same object
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>model</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Model</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Takes the Backbone model to be used for conversion. (If no model is specified, Built.io Backend's default model would be used.)</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+a BackBone object
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  var model = Backbone.Model.extend({
+getName:function(){
+	this.get("name");
+},
+setName:function(name){
+	this.set("name", name);
+},
+	idAttribute:"uid"
+});
+ 
+var Project = Built.App('blt5d4924dff62a633b').Class('project').Object; 
+var project = Project({
+	name:'Super Project #41!'
+});
+
+var backbone = project.toBackboneModel(model);
+//Now "backbone" can be used to fetch, save, delete, update object on Built.io Backend.
+backbone.save(null,{
+	success:function(res){
+		// res also has a Backbone model type
+	}
+});
+ 
+// Built.io Backend's default Backbone model would be used
+var backbone = project.toBackboneModel();
+//Now "backbone" can be used to fetch, save, delete, update object on Built.io Backend.
+backbone.save(null,{
+	success:function(res){
+		// res also has a Backbone model type
+	}
+});
+ </code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="updateValueAtIndex">
+            
+            updateValueAtIndex<span class="signature">(key, value, index)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 548
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        For the given field marked multiple, it updates the value at the given index. The method ensures update operation to be atmoic
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Uid of field</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>value</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+|
+
+<span class="param-type"><a href="Object.html">Object</a></span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Update value for the field based on it type</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>index</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Index at which the value should be updated</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    <h5>Throws:</h5>
+    
+            
+
+    <div class="param-desc">
+    
+        new Error('Index value inappropriate')
+    
+    </div>
+
+
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' is uid of an object on Built.io Backend  
+var project = Built.App('blt5d4sample2633b').Class('project').Object();
+project     = project.updateValueAtIndex('multi_field', 1);</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="upsert">
+            
+            upsert<span class="signature">(upsertObject)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 571
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Upserts the object (Updates the matching object if found on Built.io Backend or creates a new object)
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>upsertObject</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Plain JavaScript object specifying the upsert conditions</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'project' is a uid of a class on Built.io Backend  
+// 'blt12sampleb09157' if uid of an object on Built.io Backend
+var Project  = Built.App('blt5d4sample2633b').Class('project').Object;
+var project  = Project({
+	name:'Super Project #41!',
+	version: 1
+});	           
+// If object having its name field as 'Super Project #41!' if found, it is updated, 
+// else it creates a new object on Built.io Backend
+project      = project.upsert({
+	name:'Super Project #41!'
+});                      
+project.save()
+.then(function(project){ 
+	// do something
+});</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="upsertForReference">
+            
+            upsertForReference<span class="signature">(field_uid, upsert)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="Object.html">Object</a>}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            object.js, line 834
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Use this method to perfom a upsert(update else insert) operation on reference field.
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>field_uid</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Reference uid on which UPSERT is to be performed</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>upsert</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Built.html#.Upsert">Built.Upsert</a></span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                Instance of Built.Upsert</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code>//'blt5d4sample2633b' is a dummy Application API key
+// Class('class_name').Object returns a Object constructor
+// 'bugs' is a uid of a class on Built.io Backend  
+var app  = Built.App('blt5d4sample2633b');
+var Bugs = app.Class('bugs').Object;
+var bug  = Bugs();
+var upsertOps = Built.Upsert([{
+	condition:{
+		name:'Super Project #41'
+	},
+	replacement:{
+		name: 'Super Project A',
+		description: 'New project'
+	}
+}])            
+bug = bug.upsertForReference('project', upsertOps);  
+// The method would first check Project class (the class referred by 'Bugs' class using 'project' field) and 
+// checks if any object with name 'Super Project #41!' exists; if yes, it's name would be replaced by 'Super Project A' and
+// description by 'New project'.
+// If not, a new entry would be made with name as 'Super Project A' and description as 'New project' and its
+// uid would be assigned to reference field 'project.</code></pre>
+    
+
+    
+</dd>
+
+        </dl>
+    
+    
+    
+    
+    
+</article>
+
+</section>  
+
+
+
+
+
+        
+
+        <footer>
+            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.2</a> on Fri Aug 28 2015 11:30:04 GMT+0530 (IST)
+        </footer>
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
